@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Find Food – SNAP Assistance Chicago</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">SNAP Assistance</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="food.html">Find Food</a></li>
+          <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+          <li class="nav-item"><a class="nav-link" href="updates.html">Updates</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="container py-5">
+    <h1 class="fw-bold mb-4 text-center">Community Help & Local Partners</h1>
+    <p class="text-center mb-5">Local churches, mutual aid groups, and neighborhood organizations offering food, clothing, or family support.</p>
+    <div class="row g-4">
+      <!-- Pantry 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Greater Chicago Food Depository</h5>
+            <p class="card-text">
+              4100 W Ann Lurie Pl, Chicago, IL 60632<br>
+              Mon–Fri: 9 AM – 4 PM<br>
+              (773) 247-3663
+            </p>
+            <a href="https://www.chicagosfoodbank.org/" class="btn btn-outline-primary" target="_blank">Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pantry 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">St. James Catholic Church Food Pantry</h5>
+            <p class="card-text">
+              2907 S Wabash Ave, Chicago, IL 60616<br>
+              Tues & Thurs: 10 AM – 1 PM<br>
+              (312) 842-1919
+            </p>
+            <a href="https://www.stjameswabash.org/" class="btn btn-outline-primary" target="_blank">Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pantry 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Englewood Community Pantry</h5>
+            <p class="card-text">
+              620 W 63rd St, Chicago, IL 60621<br>
+              Wed & Sat: 9 AM – 12 PM<br>
+              (773) 488-6600
+            </p>
+            <a href="#" class="btn btn-outline-primary disabled">Local Program</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pantry 4 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Trinity United Church of Christ</h5>
+            <p class="card-text">
+              400 W 95th St, Chicago, IL 60628<br>
+              Tues: 10 AM – 2 PM<br>
+              (773) 962-5650
+            </p>
+            <a href="https://www.trinitychicago.org/" class="btn btn-outline-primary" target="_blank">Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pantry 5 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Catholic Charities – St. Leo Residence</h5>
+            <p class="card-text">
+              7750 S Emerald Ave, Chicago, IL 60620<br>
+              Tues & Thurs: 10 AM – 2 PM<br>
+              (312) 655-7700
+            </p>
+            <a href="https://www.catholiccharities.net/" class="btn btn-outline-primary" target="_blank">Website</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pantry 6 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Maple Park United Methodist Church</h5>
+            <p class="card-text">
+              11705 S Elizabeth St, Chicago, IL 60643<br>
+              Thurs: 10 AM – 1 PM<br>
+              (773) 238-2600
+            </p>
+            <a href="https://mapleparkchurch.org/" class="btn btn-outline-primary" target="_blank">Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0 small">
+      © <span id="year"></span> Integrity Programming | SNAP Assistance Chicago
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
