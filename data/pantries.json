@@ -18,6 +18,80 @@
     "address": "620 W 63rd St, Chicago, IL 60621",
     "hours": "Wed & Sat 9AM–12PM",
     "phone": "(773) 488-6600",
-    "website": ""
-  }
+    "website": "",
+    "description": ""
+  },
+  {
+    "name": "Chosen Tabernacle Food Pantry",
+    "address": "4311 S State St, Chicago, IL 60609",
+    "hours": "Sat 10AM–12PM",
+    "phone": "(312) 488225-8600",
+    "website": "",
+    "description": ""
+  },
+  {
+    "name": "Chosen Tabernacle Food Pantry",
+    "address": "4311 S State St, Chicago, IL 60609",
+    "zip": "60609",
+    "hours": "Saturday 10 AM – 12 PM",
+    "phone": "(312) 225-8600",
+    "description": "Faith-based pantry serving 120+ families weekly."
+  },
+  {
+    "name": "Bronzeville Anti-Hunger Network (via KOCO)",
+    "address": "6330 S Dorchester Ave, Chicago, IL 60637",
+    "zip": "60637",
+    "hours": "Varies by partner sites",
+    "phone": "(773) 548-7500",
+    "description": "Network of local pantries and senior meal programs serving the Bronzeville area."
+  },
+  {
+    "name": "St. Elizabeth Catholic Church Pantry",
+    "address": "4052 S Wabash Ave, Chicago, IL 60653",
+    "zip": "60653",
+    "hours": "Wednesday 9 AM – 11 AM",
+    "phone": "(773) 268-1518",
+    "description": "Historic parish providing weekly groceries to Bronzeville families."
+  },
+  {
+    "name": "Apostolic Faith Church Pantry",
+    "address": "3823 S Indiana Ave, Chicago, IL 60653",
+    "zip": "60653",
+    "hours": "2nd & 4th Saturday 9 AM – 12 PM",
+    "phone": "(773) 373-8500",
+    "description": "Drive-through food distribution partner supporting the local community."
+  },
+  {
+    "name": "Park Manor Christian Church",
+    "address": "600 E 73rd St, Chicago, IL 60619",
+    "zip": "60619",
+    "hours": "Friday 10 AM – 1 PM",
+    "phone": "(773) 483-2115",
+    "description": "Serves both the Bronzeville and Park Manor neighborhoods with weekly food assistance."
+  },
+  {
+    "name": "Kenwood United Church of Christ",
+    "address": "4608 S Greenwood Ave, Chicago, IL 60653",
+    "zip": "60653",
+    "hours": "Saturday 9 AM – 12 PM",
+    "phone": "(773) 373-3583",
+    "description": "Community pantry and senior meal support for Bronzeville residents."
+  },
+  {
+    "name": "Greater Bethesda Missionary Baptist Church",
+    "address": "109 E 53rd St, Chicago, IL 60615",
+    "zip": "60615",
+    "hours": "Thursday 10 AM – 12 PM",
+    "phone": "(773) 285-1780",
+    "description": "Partnered with the Greater Chicago Food Depository to provide groceries and outreach."
+  },
+  {
+    "name": "Mandela Market Place / Bronzeville Community Garden",
+    "address": "51st & Calumet Ave, Chicago, IL 60615",
+    "zip": "60615",
+    "hours": "Seasonal hours",
+    "phone": "",
+    "description": "Fresh-produce distribution and community education garden in Bronzeville."
+  }  
 ]
+
