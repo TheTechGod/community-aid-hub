@@ -1,0 +1,20 @@
+body {
+  padding-top: 56px; /* offset for fixed navbar */
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0d6efd, #0b5ed7);
+  min-height: 60vh;
+}
+
+/* Cards */
+.card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
