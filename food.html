@@ -33,10 +33,15 @@
   <!-- Main -->
   <main class="container py-5">
     <h1 class="fw-bold mb-4 text-center">Find Food in Your Area</h1>
-    <p class="text-center mb-5">
-      Below are Chicago-area food pantries and meal programs.  
-      This is a working demo to help our community stay fed during SNAP benefit delays.
-    </p>
+
+    <!-- 🔍 Search by ZIP -->
+<div class="input-group mb-4">
+  <input id="zipInput" type="text" class="form-control" placeholder="Enter ZIP code (e.g. 60653)">
+  <button class="btn btn-primary" onclick="searchPantries()">Search</button>
+</div>
+
+<!-- 📋 Results -->
+<div id="results" class="row g-3"></div>
 
     <div class="row g-4">
       <!-- Pantry 1 -->
@@ -140,5 +145,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="js/search.js"></script>
 </body>
 </html>
