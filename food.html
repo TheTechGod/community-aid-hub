@@ -22,129 +22,42 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link active" href="food.html">Find Food</a></li>
-          <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
           <li class="nav-item"><a class="nav-link" href="updates.html">Updates</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Main -->
-  <main class="container py-5">
+  <main class="container py-5 mt-5">
     <h1 class="fw-bold mb-4 text-center">Find Food in Your Area</h1>
 
-    <!-- 🔍 Search by ZIP -->
-<div class="input-group mb-4">
-  <input id="zipInput" type="text" class="form-control" placeholder="Enter ZIP code (e.g. 60653)">
-  <button class="btn btn-primary" onclick="searchPantries()">Search</button>
-</div>
-
-<!-- 📋 Results -->
-<div id="results" class="row g-3"></div>
-
-    <div class="row g-4">
-      <!-- Pantry 1 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Greater Chicago Food Depository</h5>
-            <p class="card-text">
-              4100 W Ann Lurie Pl, Chicago, IL 60632<br>
-              Mon–Fri: 9 AM – 4 PM<br>
-              (773) 247-3663
-            </p>
-            <a href="https://www.chicagosfoodbank.org/" class="btn btn-outline-primary" target="_blank">Website</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pantry 2 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">St. James Catholic Church Food Pantry</h5>
-            <p class="card-text">
-              2907 S Wabash Ave, Chicago, IL 60616<br>
-              Tues & Thurs: 10 AM – 1 PM<br>
-              (312) 842-1919
-            </p>
-            <a href="https://www.stjameswabash.org/" class="btn btn-outline-primary" target="_blank">Website</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pantry 3 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Englewood Community Pantry</h5>
-            <p class="card-text">
-              620 W 63rd St, Chicago, IL 60621<br>
-              Wed & Sat: 9 AM – 12 PM<br>
-              (773) 488-6600
-            </p>
-            <a href="#" class="btn btn-outline-primary disabled">Local Program</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pantry 4 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Trinity United Church of Christ</h5>
-            <p class="card-text">
-              400 W 95th St, Chicago, IL 60628<br>
-              Tues: 10 AM – 2 PM<br>
-              (773) 962-5650
-            </p>
-            <a href="https://www.trinitychicago.org/" class="btn btn-outline-primary" target="_blank">Website</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pantry 5 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Catholic Charities – St. Leo Residence</h5>
-            <p class="card-text">
-              7750 S Emerald Ave, Chicago, IL 60620<br>
-              Tues & Thurs: 10 AM – 2 PM<br>
-              (312) 655-7700
-            </p>
-            <a href="https://www.catholiccharities.net/" class="btn btn-outline-primary" target="_blank">Website</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pantry 6 -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Maple Park United Methodist Church</h5>
-            <p class="card-text">
-              11705 S Elizabeth St, Chicago, IL 60643<br>
-              Thurs: 10 AM – 1 PM<br>
-              (773) 238-2600
-            </p>
-            <a href="https://mapleparkchurch.org/" class="btn btn-outline-primary" target="_blank">Website</a>
-          </div>
-        </div>
-      </div>
+    <!-- 🔍 Search box -->
+    <div class="input-group mb-4">
+      <input type="text" id="searchBox" class="form-control" placeholder="Search by name, ZIP, or neighborhood...">
+      <button class="btn btn-primary" type="button" id="searchBtn">Search</button>
     </div>
+
+    <!-- 📋 Results -->
+    <div id="results" class="row g-3"></div>
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-light text-center py-3">
+  <!-- ✅ Sticky Footer -->
+  <footer class="bg-dark text-light text-center py-3 mt-auto">
     <p class="mb-0 small">
-      © <span id="year"></span> Integrity Programming | SNAP Assistance Chicago
+      © <span id="year"></span> 
+      <a href="https://integrity-programming-portfolio-sta.vercel.app/" target="_blank" class="text-info text-decoration-none">
+        Integrity Programming
+      </a>
+      | Built by Geoffrey D. Metzger
     </p>
   </footer>
 
+  <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   <script src="js/search.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

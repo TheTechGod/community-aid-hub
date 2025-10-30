@@ -2,6 +2,7 @@
   {
     "name": "Greater Chicago Food Depository",
     "address": "4100 W Ann Lurie Pl, Chicago, IL 60632",
+    "zip": "60632",
     "hours": "Mon–Fri 9AM–4PM",
     "phone": "(773) 247-3663",
     "website": "https://www.chicagosfoodbank.org/"
@@ -9,6 +10,7 @@
   {
     "name": "Catholic Charities – St. Leo Residence",
     "address": "7750 S Emerald Ave, Chicago, IL 60620",
+    "zip": "60620",
     "hours": "Tues & Thurs 10AM–2PM",
     "phone": "(312) 655-7700",
     "website": "https://www.catholiccharities.net/"
@@ -16,7 +18,7 @@
   {
     "name": "Englewood Community Pantry",
     "address": "620 W 63rd St, Chicago, IL 60621",
-    "hours": "Wed & Sat 9AM–12PM",
+    "zip": "60621",
     "phone": "(773) 488-6600",
     "website": "",
     "description": ""
@@ -24,6 +26,7 @@
   {
     "name": "Chosen Tabernacle Food Pantry",
     "address": "4311 S State St, Chicago, IL 60609",
+    "zip": "60609",
     "hours": "Sat 10AM–12PM",
     "phone": "(312) 488225-8600",
     "website": "",

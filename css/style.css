@@ -1,20 +1,125 @@
-body {
-  padding-top: 56px; /* offset for fixed navbar */
-  font-family: "Inter", system-ui, sans-serif;
+/* ------------------------------
+   Global Layout
+------------------------------ */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Hero Section */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafc;
+  color: #212529;
+  line-height: 1.6;
+  padding-top: 56px; /* offset for fixed navbar */
+}
+
+main {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+/* ------------------------------
+   Navbar
+------------------------------ */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* ------------------------------
+   Hero Section
+------------------------------ */
 .hero {
   background: linear-gradient(to right, #0d6efd, #0b5ed7);
+  color: #fff;
   min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
-/* Cards */
+/* ------------------------------
+   Search Box
+------------------------------ */
+.input-group {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+input.form-control {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.btn-primary {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* ------------------------------
+   Cards
+------------------------------ */
 .card {
   border-radius: 1rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
 }
+
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.card-body h5 {
+  color: #0b5ed7;
+  font-weight: 600;
+}
+
+/* ------------------------------
+   Footer (Sticky + Branded)
+------------------------------ */
+footer {
+  background-color: #212529;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  margin-top: auto;
+  position: relative;
+}
+
+footer a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #66b2ff;
+  text-decoration: underline;
+}
+
+/* ------------------------------
+   Responsive Adjustments
+------------------------------ */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
 }

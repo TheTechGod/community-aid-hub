@@ -19,9 +19,9 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="food.html">Find Food</a></li>
-          <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+          <!--<li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>-->
           <li class="nav-item"><a class="nav-link active" href="updates.html">Updates</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <!--<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>-->
         </ul>
       </div>
     </div>
@@ -46,11 +46,20 @@
     </div>
   </main>
 
-  <footer class="bg-dark text-light text-center py-3">
-    <p class="mb-0 small">© <span id="year"></span> Integrity Programming</p>
-  </footer>
+  <!-- ✅ Footer -->
+  <footer class="bg-dark text-light text-center py-3 mt-auto">
+  <p class="mb-0 small">
+    © <span id="year"></span> <a href="https://integrity-programming-portfolio-sta.vercel.app/" target="_blank">Integrity Programming |
+    Built by Geoffrey D. Metzger</a>
+  </p>
+</footer>
 
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
