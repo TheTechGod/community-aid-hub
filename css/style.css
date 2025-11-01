@@ -136,3 +136,12 @@ footer a:hover {
     justify-content: start;
   }
 }
+
+
+#resetFilters {
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+#resetFilters[style*="visible"] {
+  opacity: 1;
+}

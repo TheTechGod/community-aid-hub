@@ -76,92 +76,105 @@
   </footer>
 
     <!-- ✅ Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
 
-    let allPantries = [];
+  let allPantries = [];
 
-    async function loadPantries() {
-      try {
-        const res = await fetch("data/pantries.json");
-        allPantries = await res.json();
-        renderResults(allPantries);
-      } catch (err) {
-        console.error("Error loading data", err);
-        document.getElementById("results").innerHTML =
-          "<p class='text-danger'>Unable to load pantry data.</p>";
-      }
+  async function loadPantries() {
+    try {
+      const res = await fetch("data/pantries.json");
+      allPantries = await res.json();
+      renderResults(allPantries);
+    } catch (err) {
+      console.error("Error loading data", err);
+      document.getElementById("results").innerHTML =
+        "<p class='text-danger'>Unable to load pantry data.</p>";
+    }
+  }
+
+  function renderResults(pantries) {
+    const list = document.getElementById("results");
+    if (pantries.length === 0) {
+      list.innerHTML = "<p class='text-muted'>No results found.</p>";
+      return;
     }
 
-    function renderResults(pantries) {
-      const list = document.getElementById("results");
-      if (pantries.length === 0) {
-        list.innerHTML = "<p class='text-muted'>No results found.</p>";
-        return;
-      }
-
-      list.innerHTML = pantries
-        .map(
-          (p) => `
-        <div class="col-md-4">
-          <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <h5 class="fw-bold">${p.name}</h5>
-              <p class="mb-1">${p.address}</p>
-              <p class="mb-1"><strong>Hours:</strong> ${p.hours || "Varies"}</p>
-              <p class="mb-1"><strong>Phone:</strong> ${p.phone || "—"}</p>
-              <p class="small text-muted mb-2">${p.community || ""}</p>
-              <span class="badge bg-primary">${p.services?.[0] || "Food Pantry"}</span>
-            </div>
+    list.innerHTML = pantries
+      .map(
+        (p) => `
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="fw-bold">${p.name}</h5>
+            <p class="mb-1">${p.address}</p>
+            <p class="mb-1"><strong>Hours:</strong> ${p.hours || "Varies"}</p>
+            <p class="mb-1"><strong>Phone:</strong> ${p.phone || "—"}</p>
+            <p class="small text-muted mb-2">${p.community || ""}</p>
+            <span class="badge bg-primary">${p.services?.[0] || "Food Pantry"}</span>
           </div>
-        </div>`
-        )
-        .join("");
+        </div>
+      </div>`
+      )
+      .join("");
+  }
+
+  function filterAndSort() {
+    const query = document.getElementById("searchInput").value.toLowerCase();
+    const serviceFilter = document.getElementById("serviceFilter").value;
+    let filtered = allPantries.filter(
+      (p) =>
+        p.zip?.startsWith(query) ||
+        p.address.toLowerCase().includes(query) ||
+        p.community?.toLowerCase().includes(query)
+    );
+
+    if (serviceFilter) {
+      filtered = filtered.filter((p) =>
+        p.services?.some((s) => s.toLowerCase().includes(serviceFilter.toLowerCase()))
+      );
     }
 
-    function filterAndSort() {
-      const query = document.getElementById("searchInput").value.toLowerCase();
-      const serviceFilter = document.getElementById("serviceFilter").value;
-      let filtered = allPantries.filter(
-        (p) =>
-          p.zip?.startsWith(query) ||
-          p.address.toLowerCase().includes(query) ||
-          p.community?.toLowerCase().includes(query)
-      );
-
-      if (serviceFilter) {
-        filtered = filtered.filter((p) =>
-          p.services?.some((s) => s.toLowerCase().includes(serviceFilter.toLowerCase()))
-        );
-      }
-
-      renderResults(filtered);
+    // Toggle reset button visibility
+    const resetBtn = document.getElementById("resetFilters");
+    if (query || serviceFilter) {
+      resetBtn.style.visibility = "visible";
+    } else {
+      resetBtn.style.visibility = "hidden";
     }
 
-    document.getElementById("searchInput").addEventListener("input", filterAndSort);
-    document.getElementById("serviceFilter").addEventListener("change", filterAndSort);
+    renderResults(filtered);
+  }
 
-    document.getElementById("sortAZ").addEventListener("click", () => {
-      allPantries.sort((a, b) => a.name.localeCompare(b.name));
-      renderResults(allPantries);
-    });
+  document.getElementById("searchInput").addEventListener("input", filterAndSort);
+  document.getElementById("serviceFilter").addEventListener("change", filterAndSort);
 
-    document.getElementById("sortCommunity").addEventListener("click", () => {
-      allPantries.sort((a, b) =>
-        (a.community || "").localeCompare(b.community || "")
-      );
-      renderResults(allPantries);
-    });
+  document.getElementById("sortAZ").addEventListener("click", () => {
+    allPantries.sort((a, b) => a.name.localeCompare(b.name));
+    renderResults(allPantries);
+  });
 
-    document.getElementById("resetFilters").addEventListener("click", () => {
-      document.getElementById("searchInput").value = "";
-      document.getElementById("serviceFilter").value = "";
-      renderResults(allPantries);
-    });
+  document.getElementById("sortCommunity").addEventListener("click", () => {
+    allPantries.sort((a, b) =>
+      (a.community || "").localeCompare(b.community || "")
+    );
+    renderResults(allPantries);
+  });
 
-    loadPantries();
-  </script>
+  document.getElementById("resetFilters").addEventListener("click", () => {
+    document.getElementById("searchInput").value = "";
+    document.getElementById("serviceFilter").value = "";
+    document.getElementById("resetFilters").style.visibility = "hidden";
+    renderResults(allPantries);
+  });
+
+  // Initially hide the reset button
+  document.getElementById("resetFilters").style.visibility = "hidden";
+
+  loadPantries();
+</script>
+
 
   <!-- Hit counter -->
   <script>
