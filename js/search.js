@@ -5,11 +5,18 @@
 
 async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
   const list = document.getElementById("results");
-  list.innerHTML = "<p class='text-center mt-3'>Loading resources...</p>";
+  list.innerHTML = `
+    <div class="text-center mt-4">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <p class="mt-2 small text-muted">Loading community resources...</p>
+    </div>
+  `;
 
   try {
-    // ✅ Works locally and on Vercel
-    const res = await fetch(`${window.location.origin}/data/resources.json`);
+    // ✅ Works both locally and on Vercel
+    const res = await fetch("data/resources.json");
     if (!res.ok) throw new Error(`HTTP ${res.status} – could not load JSON`);
 
     const data = await res.json();
@@ -33,17 +40,23 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
     }
 
     // 🔢 Sorting
-    if (sortBy === "zip") {
-      filtered.sort((a, b) => a.zip.localeCompare(b.zip));
-    } else {
-      filtered.sort((a, b) => a.name.localeCompare(b.name));
+    switch (sortBy) {
+      case "zip":
+        filtered.sort((a, b) => a.zip.localeCompare(b.zip));
+        break;
+      case "region":
+        filtered.sort((a, b) => a.region.localeCompare(b.region));
+        break;
+      default:
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
     }
 
     // 🧮 Render Results
     if (filtered.length === 0) {
-      list.innerHTML = `<p class="text-center text-muted mt-4">
-        No results found. Try another ZIP, region, or keyword.
-      </p>`;
+      list.innerHTML = `
+        <p class="text-center text-muted mt-4">
+          No results found. Try another ZIP, region, or keyword.
+        </p>`;
       return;
     }
 
@@ -68,7 +81,8 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
 
               ${
                 p.website
-                  ? `<a href="${p.website}" target="_blank" class="btn btn-outline-success btn-sm mb-2">Visit Website</a>`
+                  ? `<a href="${p.website}" target="_blank"
+                      class="btn btn-outline-success btn-sm mb-2">Visit Website</a>`
                   : ""
               }
 
@@ -86,20 +100,23 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
       .join("");
   } catch (err) {
     console.error("Error loading data:", err);
-    list.innerHTML = `<p class='text-danger text-center mt-4'>
-      ⚠️ Could not load resource data. Please try again later.
-    </p>`;
+    list.innerHTML = `
+      <p class='text-danger text-center mt-4'>
+        ⚠️ Unable to load resource data. Please refresh or try again later.
+      </p>`;
   }
 }
 
-// 🧠 Auto-load on page ready
+// 🧠 Initialize listeners and first load
 window.addEventListener("DOMContentLoaded", () => {
   const searchBox = document.getElementById("searchBox");
   const regionSelect = document.getElementById("regionFilter");
   const sortSelect = document.getElementById("sortBy");
 
+  // Initial load
   loadPantries();
 
+  // Real-time filters
   if (searchBox)
     searchBox.addEventListener("keyup", () =>
       loadPantries(regionSelect?.value || "All", sortSelect?.value || "name", searchBox.value)
@@ -115,3 +132,4 @@ window.addEventListener("DOMContentLoaded", () => {
       loadPantries(regionSelect?.value || "All", sortSelect.value, searchBox?.value || "")
     );
 });
+
