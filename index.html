@@ -41,7 +41,7 @@
   </section>
 
   <!-- ✅ Info cards -->
-  <section class="py-5">
+  <section class="py-5 justify-content-center ">
     <div class="container">
       <div class="row g-4">
         <div class="col-md-4">
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <!--<div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center">
               <h5 class="card-title fw-bold">Community Resources</h5>
@@ -61,7 +61,7 @@
               <a href="community.html" class="btn btn-outline-primary">Browse Resources</a>
             </div>
           </div>
-        </div>
+        </div>-->
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center">
@@ -90,5 +90,18 @@
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+  <script>
+fetch('https://api.countapi.xyz/hit/community-aid-hub.vercel.app/visits')
+  .then(res => res.json())
+  .then(data => {
+    console.log(`Visits: ${data.value}`);
+    const visitEl = document.createElement('p');
+    visitEl.textContent = `👀 Visits: ${data.value}`;
+    visitEl.style.fontSize = '0.8rem';
+    visitEl.style.color = '#aaa';
+    document.querySelector('footer').appendChild(visitEl);
+  });
+</script>
+
 </body>
 </html>

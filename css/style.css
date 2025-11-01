@@ -123,3 +123,16 @@ footer a:hover {
     font-size: 0.8rem;
   }
 }
+
+
+/* ✅ Auto-center cards when fewer than 3 per row */
+.row.g-4 {
+  justify-content: center; /* default: center cards */
+}
+
+/* When 3+ cards, restore normal spacing */
+@media (min-width: 768px) {
+  .row.g-4:has(.col-md-4:nth-child(3)) {
+    justify-content: start;
+  }
+}
