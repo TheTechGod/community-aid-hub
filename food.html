@@ -63,6 +63,29 @@
       </div>
     </div>
 
+    <div class="row mb-4">
+  <div class="col-md-4 mb-2">
+    <input type="text" id="searchBox" class="form-control" placeholder="Search by name, ZIP, or keyword..." />
+  </div>
+  <div class="col-md-4 mb-2">
+    <select id="regionFilter" class="form-select">
+      <option value="All">All Regions</option>
+      <option value="City of Chicago">City of Chicago</option>
+      <option value="South Suburbs">South Suburbs</option>
+      <option value="West Suburbs">West Suburbs</option>
+    </select>
+  </div>
+  <div class="col-md-4 mb-2">
+    <select id="sortBy" class="form-select">
+      <option value="name">Sort by Name (A–Z)</option>
+      <option value="zip">Sort by ZIP</option>
+    </select>
+  </div>
+</div>
+
+<div id="results" class="row g-3"></div>
+
+
     <!-- Results -->
     <div id="results" class="row g-4"></div>
   </main>
