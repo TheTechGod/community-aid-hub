@@ -8,18 +8,14 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
   list.innerHTML = "<p class='text-center mt-3'>Loading resources...</p>";
 
   try {
-    // 🌎 Automatically detect correct path (works local + hosted)
-    const basePath = window.location.hostname.includes("vercel.app")
-      ? "/data/resources.json"
-      : "data/resources.json";
-
-    const res = await fetch(basePath);
+    // ✅ Works locally and on Vercel
+    const res = await fetch(`${window.location.origin}/data/resources.json`);
     if (!res.ok) throw new Error(`HTTP ${res.status} – could not load JSON`);
-    const data = await res.json();
 
+    const data = await res.json();
     let filtered = data;
 
-    // 🔍 Keyword search
+    // 🔍 Keyword Search
     if (query) {
       const lower = query.toLowerCase();
       filtered = filtered.filter(p =>
@@ -31,7 +27,7 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
       );
     }
 
-    // 🌍 Region filter
+    // 🌍 Region Filter
     if (filterRegion !== "All") {
       filtered = filtered.filter(p => p.region === filterRegion);
     }
@@ -43,19 +39,18 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
       filtered.sort((a, b) => a.name.localeCompare(b.name));
     }
 
-    // 🧮 Render results
+    // 🧮 Render Results
     if (filtered.length === 0) {
-      list.innerHTML = `
-        <p class="text-center text-muted mt-4">
-          No results found. Try another ZIP, region, or keyword.
-        </p>`;
+      list.innerHTML = `<p class="text-center text-muted mt-4">
+        No results found. Try another ZIP, region, or keyword.
+      </p>`;
       return;
     }
 
     list.innerHTML = filtered
       .map(
         p => `
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card shadow-sm h-100 border-0">
             <div class="card-body">
               <h5 class="fw-bold">${p.name}</h5>
@@ -73,16 +68,13 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
 
               ${
                 p.website
-                  ? `<a href="${p.website}" target="_blank"
-                      class="btn btn-outline-success btn-sm mb-2">Visit Website</a>`
+                  ? `<a href="${p.website}" target="_blank" class="btn btn-outline-success btn-sm mb-2">Visit Website</a>`
                   : ""
               }
 
               <p class="small text-muted mb-0">
-                ${p.community ? `<strong>${p.community}</strong> • ` : ""}
-                ${p.region || ""}
+                ${p.community ? `<strong>${p.community}</strong> • ` : ""}${p.region || ""}
               </p>
-
               <hr class="my-2">
               <p class="small text-muted mb-0">
                 ✅ Verified ${p.lastUpdated || "Oct 2025"} | ${p.category || "Food Assistance"}
@@ -106,10 +98,8 @@ window.addEventListener("DOMContentLoaded", () => {
   const regionSelect = document.getElementById("regionFilter");
   const sortSelect = document.getElementById("sortBy");
 
-  // Initial load
   loadPantries();
 
-  // Listeners for filters
   if (searchBox)
     searchBox.addEventListener("keyup", () =>
       loadPantries(regionSelect?.value || "All", sortSelect?.value || "name", searchBox.value)
