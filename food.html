@@ -39,11 +39,12 @@
 
   <!-- ✅ Search + Filters -->
   <main class="container py-5">
-    <div class="row mb-4">
+    <div class="row mb-4 align-items-center">
       <div class="col-md-5 mb-2">
         <input id="searchInput" type="text" class="form-control" placeholder="Enter ZIP or neighborhood...">
       </div>
-      <div class="col-md-4 mb-2">
+
+      <div class="col-md-3 mb-2">
         <select id="serviceFilter" class="form-select">
           <option value="">All Services</option>
           <option value="Groceries">Groceries</option>
@@ -52,10 +53,12 @@
           <option value="Fresh produce">Fresh Produce</option>
         </select>
       </div>
-      <div class="col-md-3 mb-2">
+
+      <div class="col-md-4 mb-2">
         <div class="btn-group w-100">
           <button class="btn btn-outline-primary" id="sortAZ">Sort A–Z</button>
           <button class="btn btn-outline-secondary" id="sortCommunity">Sort by Community</button>
+          <button class="btn btn-outline-danger" id="resetFilters">Reset</button>
         </div>
       </div>
     </div>
@@ -72,12 +75,11 @@
     </p>
   </footer>
 
-  <!-- ✅ Scripts -->
+    <!-- ✅ Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Fetch data + render cards
     let allPantries = [];
 
     async function loadPantries() {
@@ -118,7 +120,6 @@
         .join("");
     }
 
-    // Search + Filter Logic
     function filterAndSort() {
       const query = document.getElementById("searchInput").value.toLowerCase();
       const serviceFilter = document.getElementById("serviceFilter").value;
@@ -150,6 +151,12 @@
       allPantries.sort((a, b) =>
         (a.community || "").localeCompare(b.community || "")
       );
+      renderResults(allPantries);
+    });
+
+    document.getElementById("resetFilters").addEventListener("click", () => {
+      document.getElementById("searchInput").value = "";
+      document.getElementById("serviceFilter").value = "";
       renderResults(allPantries);
     });
 
