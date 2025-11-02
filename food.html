@@ -39,33 +39,46 @@
 
   <!-- ✅ Search + Filters -->
   <main class="container py-5">
-    <div class="row mb-4 align-items-center">
-      <div class="col-md-5 mb-2">
-        <input id="searchInput" type="text" class="form-control" placeholder="Enter ZIP or neighborhood...">
-      </div>
+  <h1 class="fw-bold mb-4 text-center">Find Food & Community Resources</h1>
+  <p class="text-center mb-5 lead">
+    Search by ZIP, neighborhood, or keyword to locate free groceries, meals, and local aid programs.
+  </p>
 
-      <div class="col-md-3 mb-2">
-        <select id="serviceFilter" class="form-select">
-          <option value="">All Services</option>
-          <option value="Groceries">Groceries</option>
-          <option value="Hot meals">Hot Meals</option>
-          <option value="Drive-through food distribution">Drive-Through</option>
-          <option value="Fresh produce">Fresh Produce</option>
-        </select>
-      </div>
-
-      <div class="col-md-4 mb-2">
-        <div class="btn-group w-100">
-          <button class="btn btn-outline-primary" id="sortAZ">Sort A–Z</button>
-          <button class="btn btn-outline-secondary" id="sortCommunity">Sort by Community</button>
-          <button class="btn btn-outline-danger" id="resetFilters">Reset</button>
-        </div>
+  <!-- 🔍 Search Bar + Filter -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-8">
+      <div class="input-group shadow-sm">
+        <input
+          id="searchBox"
+          type="text"
+          class="form-control"
+          placeholder="Search by ZIP, area, or keyword (e.g. 60653, Bronzeville, drive-through)"
+        />
+        <button id="searchBtn" class="btn btn-primary px-4">
+          <i class="bi bi-search"></i> Search
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Results -->
-    <div id="results" class="row g-4"></div>
-  </main>
+  <!-- Optional Region Filter -->
+  <!-- Uncomment if you want to enable region-based dropdown later
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-6 text-center">
+      <select id="regionFilter" class="form-select shadow-sm">
+        <option value="All">All Regions</option>
+        <option value="City of Chicago">City of Chicago</option>
+        <option value="South Suburbs">South Suburbs</option>
+        <option value="West Suburbs">West Suburbs</option>
+      </select>
+    </div>
+  </div>
+  -->
+
+  <!-- 🧾 Results Grid -->
+  <div id="results" class="row g-4"></div>
+</main>
+
 
   <!-- ✅ Footer -->
   <footer class="bg-dark text-light text-center py-3 mt-auto">
@@ -188,5 +201,9 @@
         document.querySelector('footer').appendChild(visitEl);
       });
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/search.js"></script>
+
 </body>
 </html>
