@@ -5,24 +5,21 @@
 
 async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
   const list = document.getElementById("results");
-  list.innerHTML = `
-    <div class="text-center mt-4">
-      <div class="spinner-border text-primary" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      <p class="mt-2 small text-muted">Loading community resources...</p>
-    </div>
-  `;
+  list.innerHTML = "<p class='text-center mt-3'>Loading resources...</p>";
 
   try {
-    // ✅ Works both locally and on Vercel
-    const res = await fetch("data/resources.json");
-    if (!res.ok) throw new Error(`HTTP ${res.status} – could not load JSON`);
+    // 🌎 Automatically detect correct path (works local + hosted)
+    const basePath = window.location.hostname.includes("vercel.app")
+      ? "/data/resources.json"
+      : "data/resources.json";
 
+    const res = await fetch(basePath);
+    if (!res.ok) throw new Error(`HTTP ${res.status} – could not load JSON`);
     const data = await res.json();
+
     let filtered = data;
 
-    // 🔍 Keyword Search
+    // 🔍 Keyword search
     if (query) {
       const lower = query.toLowerCase();
       filtered = filtered.filter(p =>
@@ -34,24 +31,19 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
       );
     }
 
-    // 🌍 Region Filter
+    // 🌍 Region filter
     if (filterRegion !== "All") {
       filtered = filtered.filter(p => p.region === filterRegion);
     }
 
     // 🔢 Sorting
-    switch (sortBy) {
-      case "zip":
-        filtered.sort((a, b) => a.zip.localeCompare(b.zip));
-        break;
-      case "region":
-        filtered.sort((a, b) => a.region.localeCompare(b.region));
-        break;
-      default:
-        filtered.sort((a, b) => a.name.localeCompare(b.name));
+    if (sortBy === "zip") {
+      filtered.sort((a, b) => a.zip.localeCompare(b.zip));
+    } else {
+      filtered.sort((a, b) => a.name.localeCompare(b.name));
     }
 
-    // 🧮 Render Results
+    // 🧮 Render results
     if (filtered.length === 0) {
       list.innerHTML = `
         <p class="text-center text-muted mt-4">
@@ -63,7 +55,7 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
     list.innerHTML = filtered
       .map(
         p => `
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4">
           <div class="card shadow-sm h-100 border-0">
             <div class="card-body">
               <h5 class="fw-bold">${p.name}</h5>
@@ -87,8 +79,10 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
               }
 
               <p class="small text-muted mb-0">
-                ${p.community ? `<strong>${p.community}</strong> • ` : ""}${p.region || ""}
+                ${p.community ? `<strong>${p.community}</strong> • ` : ""}
+                ${p.region || ""}
               </p>
+
               <hr class="my-2">
               <p class="small text-muted mb-0">
                 ✅ Verified ${p.lastUpdated || "Oct 2025"} | ${p.category || "Food Assistance"}
@@ -100,14 +94,13 @@ async function loadPantries(filterRegion = "All", sortBy = "name", query = "") {
       .join("");
   } catch (err) {
     console.error("Error loading data:", err);
-    list.innerHTML = `
-      <p class='text-danger text-center mt-4'>
-        ⚠️ Unable to load resource data. Please refresh or try again later.
-      </p>`;
+    list.innerHTML = `<p class='text-danger text-center mt-4'>
+      ⚠️ Could not load resource data. Please try again later.
+    </p>`;
   }
 }
 
-// 🧠 Initialize listeners and first load
+// 🧠 Auto-load on page ready
 window.addEventListener("DOMContentLoaded", () => {
   const searchBox = document.getElementById("searchBox");
   const regionSelect = document.getElementById("regionFilter");
@@ -116,7 +109,7 @@ window.addEventListener("DOMContentLoaded", () => {
   // Initial load
   loadPantries();
 
-  // Real-time filters
+  // Listeners for filters
   if (searchBox)
     searchBox.addEventListener("keyup", () =>
       loadPantries(regionSelect?.value || "All", sortSelect?.value || "name", searchBox.value)
@@ -132,4 +125,3 @@ window.addEventListener("DOMContentLoaded", () => {
       loadPantries(regionSelect?.value || "All", sortSelect.value, searchBox?.value || "")
     );
 });
-
