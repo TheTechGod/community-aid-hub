@@ -1,5 +1,5 @@
 [
-{
+  {
     "name": "Englewood Red Shield Center (Salvation Army)",
     "type": "Food Pantry / Grocery Distribution",
     "address": "945 W 69th St, Chicago, IL 60621",
@@ -7,14 +7,18 @@
     "website": "https://www.chicagosfoodbank.org/locations/englewood-red-shield-center/",
     "community": "Englewood",
     "region": "City of Chicago",
-    "hours": "Tue 9:00 AM–1:00 PM; Wed 9:00 AM–1:00 PM; Thu 9:00 AM–11:00 AM",
-    "services": ["Groceries", "GCFD partner"],
+    "hours": "Tue 9:00 AM\u20131:00 PM; Wed 9:00 AM\u20131:00 PM; Thu 9:00 AM\u201311:00 AM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
     "latitude": 41.7686,
     "longitude": -87.6431,
     "zip": "60621",
-    "description": "Operated by the Salvation Army; provides weekly grocery distribution and community support."
-},
-{
+    "description": "Operated by the Salvation Army; provides weekly grocery distribution and community support.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Greater Auburn-Gresham Development Corporation Pantry",
     "type": "Food Pantry",
     "address": "7908 S Halsted St, Chicago, IL 60620",
@@ -22,14 +26,18 @@
     "website": "https://www.chicagosfoodbank.org/locations/greater-auburn-gresham-development-corp/",
     "community": "Auburn Gresham",
     "region": "City of Chicago",
-    "hours": "Thu 11:00 AM–3:00 PM (2nd week of month)",
-    "services": ["Groceries", "GCFD partner"],
+    "hours": "Thu 11:00 AM\u20133:00 PM (2nd week of month)",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
     "latitude": 41.7509,
     "longitude": -87.6446,
     "zip": "60620",
-    "description": "Local community pantry partnered with GCFD; serves hundreds of families monthly."
-},
-{
+    "description": "Local community pantry partnered with GCFD; serves hundreds of families monthly.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Pilsen Food Pantry",
     "type": "Food Pantry",
     "address": "2124 S Ashland Ave, Chicago, IL 60608",
@@ -37,14 +45,39 @@
     "website": "https://www.pilsenfoodpantry.com/",
     "community": "Pilsen / Lower West Side",
     "region": "City of Chicago",
-    "hours": "Mon–Wed & Fri 10:00 AM–1:30 PM; Thu 2:00 PM–5:00 PM",
-    "services": ["Groceries", "Clothing closet (Mercadito Gratis)"],
+    "hours": "Mon\u2013Wed & Fri 10:00 AM\u20131:30 PM; Thu 2:00 PM\u20135:00 PM",
+    "services": [
+      "Groceries",
+      "Clothing closet (Mercadito Gratis)",
+      "GCFD partner"
+    ],
     "latitude": 41.8538,
     "longitude": -87.6671,
     "zip": "60608",
-    "description": "Faith-based pantry providing groceries and clothing to Pilsen residents."
-},
-{
+    "description": "High-volume GCFD-partner pantry in Pilsen; also operates a free clothing closet. Bilingual in Spanish and Chinese.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Instituto del Progreso Latino Food Pantry",
+    "type": "Food Pantry",
+    "address": "2570 S Blue Island Ave, Chicago, IL 60608",
+    "phone": "(773) 890-0055",
+    "website": "https://www.ipl.org/",
+    "community": "Pilsen / Lower West Side",
+    "region": "City of Chicago",
+    "hours": "Tue 2 PM\u20135 PM; Thu 9:30 AM\u201312:30 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner",
+      "ESL & workforce services"
+    ],
+    "latitude": 41.8477,
+    "longitude": -87.6643,
+    "zip": "60608",
+    "description": "Latino community organization in Pilsen offering twice-weekly grocery distribution alongside education and workforce development programs.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Bronzeville Anti-Hunger Network (via KOCO)",
     "type": "Food Pantry Network",
     "address": "6330 S Dorchester Ave, Chicago, IL 60637",
@@ -53,13 +86,17 @@
     "community": "Bronzeville",
     "region": "City of Chicago",
     "hours": "Varies by partner sites",
-    "services": ["Groceries", "Senior meals"],
+    "services": [
+      "Groceries",
+      "Senior meals"
+    ],
     "latitude": 41.7802,
     "longitude": -87.5927,
     "zip": "60637",
-    "description": "Network of local pantries and meal programs serving the Bronzeville area through KOCO partnerships."
-},
-{
+    "description": "Network of local pantries and meal programs serving the Bronzeville area through KOCO partnerships.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "St. Elizabeth Catholic Church Pantry",
     "type": "Food Pantry",
     "address": "4052 S Wabash Ave, Chicago, IL 60653",
@@ -67,14 +104,17 @@
     "website": "",
     "community": "Bronzeville",
     "region": "City of Chicago",
-    "hours": "Wednesday 9 AM – 11 AM",
-    "services": ["Groceries"],
+    "hours": "Wednesday 9 AM\u201311 AM",
+    "services": [
+      "Groceries"
+    ],
     "latitude": 41.8201,
     "longitude": -87.6244,
     "zip": "60653",
-    "description": "Historic parish providing weekly groceries and support to Bronzeville families."
-},
-{
+    "description": "Historic parish providing weekly groceries and support to Bronzeville families.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Apostolic Faith Church Pantry",
     "type": "Drive-Through Distribution",
     "address": "3823 S Indiana Ave, Chicago, IL 60653",
@@ -82,14 +122,37 @@
     "website": "",
     "community": "Bronzeville",
     "region": "City of Chicago",
-    "hours": "2nd & 4th Saturday 9 AM – 12 PM",
-    "services": ["Drive-through food distribution"],
+    "hours": "Tue 5 PM\u20137 PM; Wed 10 AM\u201312 PM",
+    "services": [
+      "Drive-through food distribution",
+      "GCFD partner"
+    ],
     "latitude": 41.8262,
     "longitude": -87.6201,
     "zip": "60653",
-    "description": "Large faith-based pantry offering bi-weekly drive-through distribution for Bronzeville residents."
-},
-{
+    "description": "Large faith-based pantry offering bi-weekly drive-through distribution for Bronzeville residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Matthew House",
+    "type": "Hot Meal Site / Food Pantry",
+    "address": "3728 S Indiana Ave, Chicago, IL 60653",
+    "phone": "(773) 536-6628",
+    "website": "",
+    "community": "Bronzeville / Douglas",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Sat 8:00 AM\u20139:00 AM & 12:00 PM\u20131:00 PM",
+    "services": [
+      "Hot meals",
+      "Groceries"
+    ],
+    "latitude": 41.827,
+    "longitude": -87.6214,
+    "zip": "60653",
+    "description": "Daily hot meal site in Bronzeville serving breakfast and lunch Monday through Saturday to all who need it.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Kenwood United Church of Christ",
     "type": "Food Pantry",
     "address": "4608 S Greenwood Ave, Chicago, IL 60653",
@@ -97,164 +160,18 @@
     "website": "",
     "community": "Kenwood / Bronzeville",
     "region": "City of Chicago",
-    "hours": "Saturday 9 AM – 12 PM",
-    "services": ["Groceries", "Senior support"],
+    "hours": "Saturday 9 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "Senior support"
+    ],
     "latitude": 41.8136,
     "longitude": -87.5999,
     "zip": "60653",
-    "description": "Community pantry and senior meal support operated by Kenwood UCC serving Bronzeville residents."
-},
-    {
-        "name": "Park Manor Christian Church Pantry",
-        "type": "Food Pantry",
-        "address": "600 E 73rd St, Chicago, IL 60619",
-        "phone": "(773) 483-2115",
-        "website": "",
-        "community": "Park Manor / Chatham",
-        "region": "City of Chicago",
-        "hours": "Friday 10 AM – 1 PM",
-        "services": ["Groceries"],
-        "latitude": 41.7631,
-        "longitude": -87.6105,
-        "zip": "60619",
-        "description": "Weekly food assistance program serving families from Park Manor and Bronzeville neighborhoods."
-    },
-    {
-        "name": "Greater Bethesda Missionary Baptist Church",
-        "type": "Food Pantry",
-        "address": "109 E 53rd St, Chicago, IL 60615",
-        "phone": "(773) 285-1780",
-        "website": "",
-        "community": "Washington Park / Hyde Park",
-        "region": "City of Chicago",
-        "hours": "Thursday 10 AM – 12 PM",
-        "services": ["Groceries", "GCFD partner"],
-        "latitude": 41.7976,
-        "longitude": -87.6192,
-        "zip": "60615",
-        "description": "GCFD partner church providing weekly groceries and community support outreach."
-    },
-    {
-        "name": "Mandela Market Place / Bronzeville Community Garden",
-        "type": "Fresh Produce Distribution",
-        "address": "51st & Calumet Ave, Chicago, IL 60615",
-        "phone": "",
-        "website": "",
-        "community": "Bronzeville / Washington Park",
-        "region": "City of Chicago",
-        "hours": "Seasonal hours",
-        "services": ["Fresh produce", "Community education"],
-        "latitude": 41.8022,
-        "longitude": -87.6199,
-        "zip": "60615",
-        "description": "Community garden distributing fresh produce and hosting nutrition education events."
-    },
-    {
-        "name": "South Shore UMC Community Market",
-        "type": "Food Pantry / Community Market",
-        "address": "7350 S Jeffrey Blvd, Chicago, IL 60649",
-        "phone": "(773) 752-6233",
-        "website": "https://www.chicagosfoodbank.org/locations/south-shore-umc/",
-        "community": "South Shore",
-        "region": "City of Chicago",
-        "hours": "Friday 4 PM – 6 PM",
-        "services": ["Groceries", "Community market"],
-        "latitude": 41.7602,
-        "longitude": -87.5745,
-        "zip": "60649",
-        "description": "Weekly community market partnered with GCFD serving South Shore residents."
-    },
-    {
-        "name": "St. Moses the Black Food Pantry",
-        "type": "Food Pantry",
-        "address": "331 E 71st St, Chicago, IL 60619",
-        "phone": "(773) 224-1022",
-        "website": "https://www.stmosesparish.org/food-pantry",
-        "community": "Greater Grand Crossing / Chatham",
-        "region": "City of Chicago",
-        "hours": "Tue 5:30 PM – 7 PM; Wed 10 AM – 12 PM",
-        "services": ["Groceries"],
-        "latitude": 41.7664,
-        "longitude": -87.6153,
-        "zip": "60619",
-        "description": "Parish-run pantry offering evening and midday food distribution for local families."
-    },
-    {
-        "name": "Greater Chicago Food Depository",
-        "type": "Food Pantry Network / Headquarters",
-        "address": "4100 W Ann Lurie Pl, Chicago, IL 60632",
-        "phone": "(773) 247-3663",
-        "website": "https://www.chicagosfoodbank.org/",
-        "community": "Archer Heights / Brighton Park",
-        "region": "City of Chicago",
-        "hours": "Mon–Fri 9 AM–4 PM",
-        "services": ["Food bank distribution", "Partner pantry locator", "SNAP assistance"],
-        "latitude": 41.8177,
-        "longitude": -87.7270,
-        "zip": "60632",
-        "description": "Main warehouse and distribution hub supplying hundreds of partner pantries citywide."
-    },
-{
-    "name": "New Hope Community Food Pantry",
-    "type": "Emergency Food Pantry",
-    "address": "6125 W Foster Ave, Chicago, IL 60630",
-    "phone": "(773) 775-1215",
-    "website": "https://www.newhopefoodpantry.com/",
-    "community": "Jefferson Park / Norwood Park",
-    "region": "City of Chicago",
-    "hours": "Tue 9:30 AM–11:30 AM",
-    "services": ["Groceries", "Emergency food assistance"],
-    "latitude": 41.9753,
-    "longitude": -87.7832,
-    "zip": "60630",
-    "description": "Northwest Side pantry providing free groceries to residents of several ZIP codes."
-},
-{
-    "name": "Nourishing Hope — Sheridan Market",
-    "type": "Food Pantry",
-    "address": "3945 N Sheridan Rd, Chicago, IL 60613",
-    "phone": "(773) 525-1777",
-    "website": "https://www.nourishinghopechi.org/get-food/",
-    "community": "Lakeview",
-    "region": "City of Chicago",
-    "hours": "See website for rotating hours",
-    "services": ["Groceries", "Social services", "Multiple locations"],
-    "latitude": 41.9547,
-    "longitude": -87.6545,
-    "zip": "60613",
-    "description": "Large pantry network offering groceries and case-management support across multiple city sites."
-},
-{
-    "name": "Friendship Center Food Pantry",
-    "type": "Food Pantry / Hot Meal Site",
-    "address": "2711 W Lawrence Ave, Chicago, IL 60625",
-    "phone": "(773) 907-6388",
-    "website": "https://friendshipcenterchicago.org/",
-    "community": "Lincoln Square",
-    "region": "City of Chicago",
-    "hours": "Mon, Wed, Fri 9 AM–12 PM; Tue 6 PM–8 PM",
-    "services": ["Groceries", "Hot meals"],
-    "latitude": 41.9688,
-    "longitude": -87.6981,
-    "zip": "60625",
-    "description": "Long-running pantry providing both groceries and prepared meals for North Side residents."
-},
-{
-    "name": "Our Lady of Lourdes Parish Food Pantry",
-    "type": "Food Pantry",
-    "address": "4640 N Ashland Ave, Chicago, IL 60640",
-    "phone": "(773) 561-2141",
-    "website": "https://www.ololchicago.org/",
-    "community": "Uptown",
-    "region": "City of Chicago",
-    "hours": "Wed 9:30 AM–11:30 AM",
-    "services": ["Groceries"],
-    "latitude": 41.9652,
-    "longitude": -87.6697,
-    "zip": "60640",
-    "description": "Uptown parish pantry serving low-income residents with weekly grocery distribution."
-},
-{
+    "description": "Community pantry and senior meal support operated by Kenwood UCC serving Bronzeville residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Ignite Pantry (formerly Teen Living Programs)",
     "type": "Food Pantry / Youth Services",
     "address": "3746 S Indiana Ave, Chicago, IL 60653",
@@ -262,419 +179,209 @@
     "website": "https://www.ignitepromise.org/",
     "community": "Bronzeville",
     "region": "City of Chicago",
-    "hours": "Mon–Fri 10 AM–4 PM",
-    "services": ["Groceries", "Youth support"],
+    "hours": "Mon\u2013Fri 10 AM\u20134 PM",
+    "services": [
+      "Groceries",
+      "Youth support"
+    ],
     "latitude": 41.8257,
     "longitude": -87.6209,
     "zip": "60653",
-    "description": "Provides groceries and wrap-around services for youth and young adults experiencing housing instability."
-},
-{
-    "name": "Southeast Side of Chicago Food Pantry",
-    "type": "Outdoor Grocery Distribution",
-    "address": "11401 S Green Bay Ave, Chicago, IL 60617",
-    "phone": "(773) 649-9612",
-    "website": "https://www.chicagosfoodbank.org/locations/southeast-side-of-chicago-food-pantry/",
-    "community": "South Deering / East Side",
-    "region": "City of Chicago",
-    "hours": "Wed 1 PM–3 PM",
-    "services": ["Groceries", "Outdoor distribution"],
-    "latitude": 41.6882,
-    "longitude": -87.5453,
-    "zip": "60617",
-    "description": "Outdoor pantry serving Southeast Side residents in partnership with GCFD."
-},
-{
-    "name": "St. Benedict Parish Pantry",
+    "description": "Provides groceries and wrap-around services for youth and young adults experiencing housing instability.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Second Faith Temple COGIC Pantry",
     "type": "Food Pantry",
-    "address": "3900 N Leavitt St, Chicago, IL 60618",
-    "phone": "(773) 588-6484",
-    "website": "https://www.stbenedict.com/",
-    "community": "North Center",
-    "region": "City of Chicago",
-    "hours": "Fri 9 AM–11 AM",
-    "services": ["Groceries"],
-    "latitude": 41.9527,
-    "longitude": -87.6826,
-    "zip": "60618",
-    "description": "Small neighborhood pantry distributing groceries every Friday morning."
-},
-{
-    "name": "Austin Coming Together Food Initiative",
-    "type": "Pantry Network / Community Program",
-    "address": "5049 W Harrison St, Chicago, IL 60644",
-    "phone": "(773) 417-8612",
-    "website": "https://austincomingtogether.org/",
-    "community": "Austin",
-    "region": "City of Chicago",
-    "hours": "Mon–Fri 9 AM–5 PM",
-    "services": ["Groceries", "Resource referrals"],
-    "latitude": 41.8733,
-    "longitude": -87.7544,
-    "zip": "60644",
-    "description": "Coordinates multiple neighborhood pantries and community food initiatives across Austin."
-},
-{
-    "name": "Garfield Park Community Council Fresh Market",
-    "type": "Fresh Produce Distribution",
-    "address": "3355 W Madison St, Chicago, IL 60624",
-    "phone": "(773) 948-8989",
-    "website": "https://www.gpcommunitycouncil.org/",
-    "community": "East Garfield Park",
-    "region": "City of Chicago",
-    "hours": "Sat 10 AM–1 PM (seasonal)",
-    "services": ["Fresh produce", "Groceries"],
-    "latitude": 41.8816,
-    "longitude": -87.7113,
-    "zip": "60624",
-    "description": "Hosts weekly fresh-produce markets and connects residents to local food resources."
-},
-{
-    "name": "Restoration Ministries Food Pantry",
-    "type": "Food Pantry",
-    "address": "253 E 159th St, Harvey, IL 60426",
-    "phone": "(708) 333-3370",
-    "website": "https://restorationministries.net/",
-    "community": "Harvey",
-    "region": "South Suburbs",
-    "hours": "Mon–Fri 9 AM – 3 PM",
-    "services": ["Groceries", "Clothing", "Support services"],
-    "latitude": 41.6026,
-    "longitude": -87.6481,
-    "zip": "60426",
-    "description": "Faith-based organization providing groceries and essentials to Harvey and neighboring residents."
-},
-{
-    "name": "Catholic Charities Curbside Pantry – Park Forest (Victory Christian)",
-    "type": "Mobile / Curbside Pantry",
-    "address": "10 Hemlock St, Park Forest, IL 60466",
-    "phone": "(708) 748-8031",
-    "website": "https://www.catholiccharities.net/curbside-pantry-launches-in-park-forest/",
-    "community": "Park Forest",
-    "region": "South Suburbs",
-    "hours": "Thu 9:30 AM – 2:30 PM",
-    "services": ["Groceries", "Drive-up service"],
-    "latitude": 41.4802,
-    "longitude": -87.6910,
-    "zip": "60466",
-    "description": "Drive-through pantry serving families across the South Suburbs in partnership with Victory Christian International Ministries."
-},
-{
-    "name": "Respond Now Emergency Assistance Center",
-    "type": "Food Pantry / Emergency Aid",
-    "address": "1439 Emerald Ave, Chicago Heights, IL 60411",
-    "phone": "(708) 755-4357",
-    "website": "https://respondnow.org/",
-    "community": "Chicago Heights",
-    "region": "South Suburbs",
-    "hours": "Mon–Fri 9 AM – 4 PM",
-    "services": ["Groceries", "Rent and utility assistance"],
-    "latitude": 41.5062,
-    "longitude": -87.6318,
-    "zip": "60411",
-    "description": "Community non-profit offering food, financial, and housing assistance to south-suburban families."
-},
-{
-    "name": "Blue Cap Community Services Pantry",
-    "type": "Food Pantry",
-    "address": "2155 Broadway St, Blue Island, IL 60406",
-    "phone": "(708) 389-6578",
-    "website": "https://blue-cap.org/",
-    "community": "Blue Island",
-    "region": "South Suburbs",
-    "hours": "Wed 10 AM – 12 PM",
-    "services": ["Groceries"],
-    "latitude": 41.6607,
-    "longitude": -87.6813,
-    "zip": "60406",
-    "description": "Distributes food weekly to Blue Island residents and nearby communities."
-},
-{
-    "name": "Community Center of Hope at Dolton Park District",
-    "type": "Community Food Distribution",
-    "address": "14700 Greenwood Rd, Dolton, IL 60419",
-    "phone": "(708) 841-2111",
+    "address": "424 E 49th St, Chicago, IL 60653",
+    "phone": "(708) 308-1228",
     "website": "",
-    "community": "Dolton",
-    "region": "South Suburbs",
-    "hours": "Thu 10 AM – 1 PM",
-    "services": ["Groceries"],
-    "latitude": 41.6215,
-    "longitude": -87.5969,
-    "zip": "60419",
-    "description": "Weekly community pantry run by the Dolton Park District and local partners."
-},
-{
-    "name": "Faith United Methodist Church Food Pantry",
-    "type": "Food Pantry",
-    "address": "15015 Grant St, Dolton, IL 60419",
-    "phone": "(708) 841-5070",
-    "website": "https://faithumcdolton.org/",
-    "community": "Dolton",
-    "region": "South Suburbs",
-    "hours": "Wed 10 AM – 12 PM",
-    "services": ["Groceries", "Emergency food boxes"],
-    "latitude": 41.6217,
-    "longitude": -87.5938,
-    "zip": "60419",
-    "description": "Church-run pantry providing emergency groceries and support services for families in Dolton and Riverdale."
-},
-{
-    "name": "Our Lady of Knock Parish Food Pantry",
-    "type": "Food Pantry",
-    "address": "501 159th St, Calumet City, IL 60409",
-    "phone": "(708) 862-3011",
-    "website": "https://ourladyofknockcc.org/",
-    "community": "Calumet City",
-    "region": "South Suburbs",
-    "hours": "Tue 10 AM – 12 PM",
-    "services": ["Groceries"],
-    "latitude": 41.6013,
-    "longitude": -87.5477,
-    "zip": "60409",
-    "description": "Parish pantry distributing food weekly to Calumet City residents and families in need."
-},
-{
-    "name": "South Suburban PADS Day Center Food Program",
-    "type": "Meal Program / Pantry",
-    "address": "414 W Lincoln Highway, Chicago Heights, IL 60411",
-    "phone": "(708) 332-7700",
-    "website": "https://southsuburbanpads.org/",
-    "community": "Chicago Heights",
-    "region": "South Suburbs",
-    "hours": "Mon–Fri 9 AM – 3 PM",
-    "services": ["Hot meals", "Groceries"],
-    "latitude": 41.5066,
-    "longitude": -87.6370,
-    "zip": "60411",
-    "description": "Day center offering hot meals and pantry support for homeless and low-income individuals in the South Suburbs."
-},
-{
-    "name": "Cicero-Berwyn-Stickney Food Pantry (Gethsemane Lutheran Church)",
-    "type": "Food Pantry",
-    "address": "1937 S 50th Ave, Cicero, IL 60804",
-    "phone": "(708) 863-4913",
-    "website": "https://www.cbsfoodpantry.org/",
-    "community": "Cicero / Berwyn / Stickney",
-    "region": "West Suburbs",
-    "hours": "Tue 10 AM – 1 PM",
-    "services": ["Groceries"],
-    "latitude": 41.8519,
-    "longitude": -87.7489,
-    "zip": "60804",
-    "description": "Jointly run pantry serving Cicero, Berwyn, and Stickney residents; operates from Gethsemane Lutheran Church."
-},
-{
-    "name": "Ministerio El Shaddai Ministry Inc.",
-    "type": "Food Pantry / Grocery Distribution",
-    "address": "1421 S Laramie Ave, Cicero, IL 60804",
-    "phone": "(708) 222-2200",
-    "website": "https://www.elshaddaichicago.org/",
-    "community": "Cicero",
-    "region": "West Suburbs",
-    "hours": "Mon & Tue 1 PM – 3 PM",
-    "services": ["Groceries", "Faith-based assistance"],
-    "latitude": 41.8584,
-    "longitude": -87.7535,
-    "zip": "60804",
-    "description": "Bilingual pantry providing groceries and support to Cicero-area families."
-},
-{
-    "name": "Proviso Township Food Pantry",
-    "type": "Food Pantry",
-    "address": "4565 Harrison St, Hillside, IL 60162",
-    "phone": "(708) 449-4301",
-    "website": "https://www.provisotownship.com/",
-    "community": "Hillside / Maywood",
-    "region": "West Suburbs",
-    "hours": "Mon–Fri 9 AM – 4 PM",
-    "services": ["Groceries", "Referral services"],
-    "latitude": 41.8739,
-    "longitude": -87.9032,
-    "zip": "60162",
-    "description": "Township-operated pantry providing groceries and social service referrals to west suburban residents."
-},
-{
-    "name": "Maywood Peace Pantry (St. Eulalia Parish)",
-    "type": "Food Pantry",
-    "address": "1851 S 9th Ave, Maywood, IL 60153",
-    "phone": "(708) 343-6120",
-    "website": "",
-    "community": "Maywood",
-    "region": "West Suburbs",
-    "hours": "Wed 10 AM – 12 PM",
-    "services": ["Groceries"],
-    "latitude": 41.8796,
-    "longitude": -87.8451,
-    "zip": "60153",
-    "description": "Community pantry hosted at St. Eulalia Parish offering weekly grocery support for Maywood residents."
-},
-{
-    "name": "Bataan-Corregidor VFW Post 367 Pantry",
-    "type": "Veteran / Community Pantry",
-    "address": "1509 S Harlem Ave, Berwyn, IL 60402",
-    "phone": "(708) 788-6660",
-    "website": "",
-    "community": "Berwyn",
-    "region": "West Suburbs",
-    "hours": "Thu 10 AM – 12 PM",
-    "services": ["Groceries", "Veteran assistance"],
-    "latitude": 41.8574,
-    "longitude": -87.8039,
-    "zip": "60402",
-    "description": "Operated by the local VFW post, providing groceries and veteran support resources to Berwyn and nearby communities."
-},
-{
-    "name": "St. Pius X Parish Food Pantry",
-    "type": "Food Pantry",
-    "address": "4300 S Oak Park Ave, Stickney, IL 60402",
-    "phone": "(708) 484-7951",
-    "website": "https://www.stpiusxstickney.org/",
-    "community": "Stickney",
-    "region": "West Suburbs",
-    "hours": "Tue 9 AM – 11 AM",
-    "services": ["Groceries"],
-    "latitude": 41.8157,
-    "longitude": -87.7846,
-    "zip": "60402",
-    "description": "Parish-based pantry providing food and basic necessities to Stickney residents and neighboring areas."
-},
-{
-    "name": "Westchester Food Pantry",
-    "type": "Food Pantry",
-    "address": "10800 Canterbury St, Westchester, IL 60154",
-    "phone": "(708) 927-4826",
-    "website": "https://www.westchesterfoodpantry.org/",
-    "community": "Westchester / Broadview",
-    "region": "West Suburbs",
-    "hours": "Sat 9:30 AM – 11:30 AM",
-    "services": ["Groceries", "Emergency assistance"],
-    "latitude": 41.8493,
-    "longitude": -87.8832,
-    "zip": "60154",
-    "description": "Volunteer-run pantry offering weekend food support and referrals for neighboring communities."
-},
-{
-    "name": "Grace Lutheran Church Food Pantry",
-    "type": "Food Pantry",
-    "address": "1101 Manchester St, Westchester, IL 60154",
-    "phone": "(708) 345-1370",
-    "website": "https://gracewestchester.org/",
-    "community": "Westchester",
-    "region": "West Suburbs",
-    "hours": "Wed 10 AM – 12 PM",
-    "services": ["Groceries"],
-    "latitude": 41.8497,
-    "longitude": -87.8796,
-    "zip": "60154",
-    "description": "Local church-operated pantry providing groceries and outreach for residents in need."
-},
-{
-    "name": "Fellowship MB Church",
-    "type": "Food Pantry",
-    "address": "4543 S Princeton Ave, Chicago, IL 60609",
-    "phone": "(773) 924-3232",
-    "website": "",
-    "community": "Fuller Park / Bronzeville",
+    "community": "Bronzeville / Grand Boulevard",
     "region": "City of Chicago",
-    "hours": "Wed 8:00 AM–10:00 AM; 4th Sat 8:00 AM–11:00 AM",
-    "services": ["Groceries"],
-    "latitude": 41.8125,
-    "longitude": -87.6337,
-    "zip": "60609",
-    "description": "Faith-based church pantry serving residents of Fuller Park and nearby Bronzeville with midweek and monthly grocery support."
-},
-{
-    "name": "Canaan NCB Food Ministry",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.8054,
+    "longitude": -87.6122,
+    "zip": "60653",
+    "description": "COGIC church-based pantry in Grand Boulevard / Bronzeville offering free groceries.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Park Manor Christian Church Pantry",
     "type": "Food Pantry",
-    "address": "6659 S Harvard Ave, Chicago, IL 60621",
-    "phone": "(773) 487-9497",
+    "address": "600 E 73rd St, Chicago, IL 60619",
+    "phone": "(773) 483-2115",
     "website": "",
-    "community": "Englewood",
+    "community": "Park Manor / Chatham",
     "region": "City of Chicago",
-    "hours": "Sat 9:00 AM–12:00 PM",
-    "services": ["Groceries", "Faith-based pantry"],
-    "latitude": 41.7739,
-    "longitude": -87.6334,
-    "zip": "60621",
-    "description": "Weekly grocery distribution ministry providing staple foods and prayer support to Englewood residents."
-},
-{
-    "name": "New Joy Divine",
+    "hours": "Friday 10 AM\u20131 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7631,
+    "longitude": -87.6105,
+    "zip": "60619",
+    "description": "Weekly food assistance program serving families from Park Manor and Bronzeville neighborhoods.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Moses the Black Food Pantry",
     "type": "Food Pantry",
-    "address": "7625 S Halsted St, Chicago, IL 60620",
-    "phone": "(773) 224-5683",
-    "website": "",
-    "community": "Auburn Gresham",
+    "address": "331 E 71st St, Chicago, IL 60619",
+    "phone": "(773) 224-1022",
+    "website": "https://www.stmosesparish.org/food-pantry",
+    "community": "Greater Grand Crossing / Chatham",
     "region": "City of Chicago",
-    "hours": "2nd & 4th Sat 10:00 AM–12:00 PM",
-    "services": ["Groceries", "Community support"],
-    "latitude": 41.7557,
-    "longitude": -87.6443,
-    "zip": "60620",
-    "description": "Bi-weekly pantry operated by New Joy Divine Church providing groceries and neighborhood assistance for Auburn Gresham residents."
-},
-{
-    "name": "First Worldwide Ministries",
-    "type": "Food Pantry / Community Support",
-    "address": "7945 S Exchange Ave, Chicago, IL 60617",
-    "phone": "(919) 908-4140",
-    "website": "",
-    "community": "South Chicago",
-    "region": "City of Chicago",
-    "hours": "Thu 3:30 PM–5:30 PM",
-    "services": ["Groceries", "Faith-based assistance"],
-    "latitude": 41.7512,
-    "longitude": -87.5534,
-    "zip": "60617",
-    "description": "Afternoon food pantry offering groceries and spiritual support to South Chicago families."
-},
-{
-    "name": "Trinity Resurrection United",
-    "type": "Food Pantry",
-    "address": "9046 S Mackinaw Ave, Chicago, IL 60617",
-    "phone": "(773) 768-9645",
-    "website": "",
-    "community": "East Side / South Chicago",
-    "region": "City of Chicago",
-    "hours": "Wed 8:30 AM–10:30 AM",
-    "services": ["Groceries"],
-    "latitude": 41.7302,
-    "longitude": -87.5526,
-    "zip": "60617",
-    "description": "Weekly pantry program distributing food and basic supplies to residents of East Side and South Chicago."
-},
-{
-    "name": "Parkway Garden Christian Church",
-    "type": "Food Pantry / Meal Support",
-    "address": "6600 S Martin Luther King Dr, Chicago, IL 60637",
-    "phone": "(773) 956-8723",
-    "website": "",
-    "community": "Woodlawn / Washington Park",
-    "region": "City of Chicago",
-    "hours": "2nd & 4th Sat 9:00 AM–12:30 PM",
-    "services": ["Groceries", "Meal programs"],
-    "latitude": 41.7759,
+    "hours": "Tue 5:30 PM\u20137:00 PM; Wed 10 AM\u201312 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7664,
     "longitude": -87.6153,
-    "zip": "60637",
-    "description": "Faith-based church providing groceries and community meals twice monthly for Woodlawn and Washington Park residents."
-},
-{
-    "name": "Back to God Church",
+    "zip": "60619",
+    "description": "Parish-run pantry offering evening and midday food distribution for local families.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Katharine Drexel Parish Food Pantry",
     "type": "Food Pantry",
-    "address": "7326 S Racine Ave, Chicago, IL 60636",
-    "phone": "(773) 224-7083",
+    "address": "9047 S Harper Ave, Chicago, IL 60619",
+    "phone": "(773) 315-1323",
     "website": "",
-    "community": "Englewood",
+    "community": "Burnside / Calumet Heights",
     "region": "City of Chicago",
-    "hours": "Tue 9:00 AM–11:00 AM",
-    "services": ["Groceries"],
-    "latitude": 41.7605,
-    "longitude": -87.6549,
-    "zip": "60636",
-    "description": "Weekly grocery distribution serving Englewood residents through faith-based community partnerships."
-},
-{
+    "hours": "Fri 8:30 AM\u201310:30 AM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.7286,
+    "longitude": -87.5907,
+    "zip": "60619",
+    "description": "GCFD-partner parish pantry on the Far South Side serving Burnside and Calumet Heights.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Greater Bethesda Missionary Baptist Church",
+    "type": "Food Pantry",
+    "address": "109 E 53rd St, Chicago, IL 60615",
+    "phone": "(773) 285-1780",
+    "website": "",
+    "community": "Washington Park / Hyde Park",
+    "region": "City of Chicago",
+    "hours": "Thursday 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.7976,
+    "longitude": -87.6192,
+    "zip": "60615",
+    "description": "GCFD partner church providing weekly groceries and community support outreach.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Brave Space Alliance Community Pantry",
+    "type": "Food Pantry / LGBTQ+ Services",
+    "address": "1515 E 52nd Pl, Chicago, IL 60615",
+    "phone": "(872) 333-5199",
+    "website": "https://www.bravespacealliance.org/",
+    "community": "Hyde Park / Woodlawn",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Thu 10 AM\u20134 PM; Fri 10 AM\u20132 PM",
+    "services": [
+      "Groceries",
+      "Fresh produce",
+      "Household items",
+      "LGBTQ+ affirming services"
+    ],
+    "latitude": 41.8024,
+    "longitude": -87.5883,
+    "zip": "60615",
+    "description": "Black trans-led LGBTQ+ center providing free groceries, produce, and household items in a culturally affirming environment; open to all community members.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Mandela Market Place / Bronzeville Community Garden",
+    "type": "Fresh Produce Distribution",
+    "address": "51st & Calumet Ave, Chicago, IL 60615",
+    "phone": "",
+    "website": "",
+    "community": "Bronzeville / Washington Park",
+    "region": "City of Chicago",
+    "hours": "Seasonal hours",
+    "services": [
+      "Fresh produce",
+      "Community education"
+    ],
+    "latitude": 41.8022,
+    "longitude": -87.6199,
+    "zip": "60615",
+    "description": "Community garden distributing fresh produce and hosting nutrition education events.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Hyde Park Kenwood Interfaith Food Pantry",
+    "type": "Food Pantry",
+    "address": "5600 S Woodlawn Ave, Chicago, IL 60637",
+    "phone": "(773) 363-6063",
+    "website": "https://hpkinterfaith.org/programs/food-pantry/",
+    "community": "Hyde Park / Kenwood",
+    "region": "City of Chicago",
+    "hours": "Sat 10 AM\u20131 PM",
+    "services": [
+      "Groceries",
+      "Fresh produce",
+      "GCFD partner"
+    ],
+    "latitude": 41.7939,
+    "longitude": -87.5981,
+    "zip": "60637",
+    "description": "Weekly interfaith pantry at Hyde Park Union Church serving ZIP codes 60615, 60653, and 60637.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Coppin Community Center",
+    "type": "Food Pantry / Senior Services",
+    "address": "5627 S Michigan Ave, Chicago, IL 60637",
+    "phone": "(773) 667-5881",
+    "website": "https://coppincommunity.org/",
+    "community": "Washington Park",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries",
+      "Senior meals",
+      "Community programs"
+    ],
+    "latitude": 41.79,
+    "longitude": -87.6226,
+    "zip": "60637",
+    "description": "Community center on the South Side providing food assistance and senior services to Washington Park and surrounding neighborhoods.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "South Shore UMC Community Market",
+    "type": "Food Pantry / Community Market",
+    "address": "7350 S Jeffrey Blvd, Chicago, IL 60649",
+    "phone": "(773) 752-6233",
+    "website": "https://www.chicagosfoodbank.org/locations/south-shore-umc/",
+    "community": "South Shore",
+    "region": "City of Chicago",
+    "hours": "Friday 4 PM\u20136 PM",
+    "services": [
+      "Groceries",
+      "Community market"
+    ],
+    "latitude": 41.7602,
+    "longitude": -87.5745,
+    "zip": "60649",
+    "description": "Weekly community market partnered with GCFD serving South Shore residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Christ Bible Church of Chicago",
     "type": "Food Pantry",
     "address": "7877 S Coles Ave, Chicago, IL 60649",
@@ -682,14 +389,1115 @@
     "website": "",
     "community": "South Shore",
     "region": "City of Chicago",
-    "hours": "Sat 10:00 AM–12:00 PM",
-    "services": ["Groceries"],
+    "hours": "Sat 10:00 AM\u201312:00 PM",
+    "services": [
+      "Groceries"
+    ],
     "latitude": 41.7529,
     "longitude": -87.5512,
     "zip": "60649",
-    "description": "Weekly food pantry serving the South Shore community with groceries and neighborly outreach."
-},
-{
+    "description": "Weekly food pantry serving the South Shore community with groceries and neighborly outreach.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Philip Neri / Lady of Peace Food Pantry",
+    "type": "Food Pantry",
+    "address": "2132 E 72nd St, Chicago, IL 60649",
+    "phone": "(773) 363-1700",
+    "website": "",
+    "community": "South Shore",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7641,
+    "longitude": -87.5693,
+    "zip": "60649",
+    "description": "Parish-based pantry serving South Shore residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Windsor Park Evangelical Lutheran Church Pantry",
+    "type": "Food Pantry",
+    "address": "2619 E 76th St, Chicago, IL 60649",
+    "phone": "(312) 519-7142",
+    "website": "",
+    "community": "South Shore",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7564,
+    "longitude": -87.5594,
+    "zip": "60649",
+    "description": "South Shore church pantry providing free groceries to local residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Khaan Foundation Food Pantry",
+    "type": "Food Pantry",
+    "address": "7351 S Stony Island Ave, Chicago, IL 60649",
+    "phone": "(773) 643-0700",
+    "website": "",
+    "community": "South Shore",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.762,
+    "longitude": -87.5862,
+    "zip": "60649",
+    "description": "Community foundation in South Shore providing free grocery assistance.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Greater Chicago Food Depository",
+    "type": "Food Pantry Network / Headquarters",
+    "address": "4100 W Ann Lurie Pl, Chicago, IL 60632",
+    "phone": "(773) 247-3663",
+    "website": "https://www.chicagosfoodbank.org/",
+    "community": "Archer Heights / Brighton Park",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Fri 9 AM\u20134 PM",
+    "services": [
+      "Food bank distribution",
+      "Partner pantry locator",
+      "SNAP assistance"
+    ],
+    "latitude": 41.8177,
+    "longitude": -87.727,
+    "zip": "60632",
+    "description": "Main warehouse and distribution hub supplying hundreds of partner pantries citywide.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "New Life Community Church \u2014 Brighton Park",
+    "type": "Food Pantry / Outdoor Distribution",
+    "address": "4155 S Rockwell St, Chicago, IL 60632",
+    "phone": "(773) 877-9957",
+    "website": "",
+    "community": "Brighton Park",
+    "region": "City of Chicago",
+    "hours": "3rd Tue of month 4 PM\u20136 PM",
+    "services": [
+      "Groceries",
+      "Outdoor distribution"
+    ],
+    "latitude": 41.821,
+    "longitude": -87.6934,
+    "zip": "60632",
+    "description": "Monthly outdoor grocery distribution in Brighton Park; bilingual in Mandarin, Cantonese, and Spanish.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Back to God Church",
+    "type": "Food Pantry",
+    "address": "7326 S Racine Ave, Chicago, IL 60636",
+    "phone": "(773) 224-7083",
+    "website": "",
+    "community": "Englewood",
+    "region": "City of Chicago",
+    "hours": "Tue 9:00 AM\u201311:00 AM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7605,
+    "longitude": -87.6549,
+    "zip": "60636",
+    "description": "Weekly grocery distribution serving Englewood residents through faith-based community partnerships.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Canaan NCB Food Ministry",
+    "type": "Food Pantry",
+    "address": "6659 S Harvard Ave, Chicago, IL 60621",
+    "phone": "(773) 487-9497",
+    "website": "",
+    "community": "Englewood",
+    "region": "City of Chicago",
+    "hours": "Sat 9:00 AM\u201312:00 PM",
+    "services": [
+      "Groceries",
+      "Faith-based pantry"
+    ],
+    "latitude": 41.7739,
+    "longitude": -87.6334,
+    "zip": "60621",
+    "description": "Weekly grocery distribution ministry providing staple foods and prayer support to Englewood residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "All Things Through Christ Food Pantry",
+    "type": "Food Pantry",
+    "address": "6600 S Hermitage Ave, Chicago, IL 60636",
+    "phone": "(708) 654-7826",
+    "website": "",
+    "community": "Englewood / Gresham",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7749,
+    "longitude": -87.6693,
+    "zip": "60636",
+    "description": "Faith-based pantry in Englewood/Gresham providing free groceries to residents of the South Side.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "The Southwest Collective",
+    "type": "Food Pantry",
+    "address": "5525 S Pulaski Rd, Chicago, IL 60629",
+    "phone": "(708) 740-8914",
+    "website": "",
+    "community": "Gage Park / Chicago Lawn",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries",
+      "Community aid"
+    ],
+    "latitude": 41.7933,
+    "longitude": -87.7267,
+    "zip": "60629",
+    "description": "Community-run pantry serving Gage Park and Chicago Lawn residents with free groceries and local support.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Sanad Organization Food Pantry",
+    "type": "Food Pantry",
+    "address": "6248 S Spaulding Ave, Chicago, IL 60629",
+    "phone": "(773) 436-7989",
+    "website": "",
+    "community": "Chicago Lawn / West Englewood",
+    "region": "City of Chicago",
+    "hours": "Fri 9 AM\u201311 AM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.779,
+    "longitude": -87.7154,
+    "zip": "60629",
+    "description": "GCFD-partner pantry in Chicago Lawn providing bilingual grocery distribution in Arabic and Spanish.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Above and Beyond Free Food Pantry",
+    "type": "Food Pantry",
+    "address": "817 S Pulaski Rd, Chicago, IL 60624",
+    "phone": "(773) 823-1660",
+    "website": "https://www.chicagosfoodbank.org/locations/above-and-beyond-free-food-pantry/",
+    "community": "East Garfield Park",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Fri 12 PM\u20133 PM; Sat 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8706,
+    "longitude": -87.7267,
+    "zip": "60624",
+    "description": "GCFD-partner pantry in East Garfield Park open six days a week \u2014 one of the most accessible schedules on the West Side.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Legler Regional Library Food Pantry",
+    "type": "Food Pantry (Library-Based)",
+    "address": "115 S Pulaski Rd, Chicago, IL 60644",
+    "phone": "(312) 746-7730",
+    "website": "https://www.chipublib.org/locations/38/",
+    "community": "Austin / East Garfield Park",
+    "region": "City of Chicago",
+    "hours": "Thu 4 PM\u20137 PM; Sun 1 PM\u20134 PM",
+    "services": [
+      "Groceries",
+      "Fresh produce"
+    ],
+    "latitude": 41.8772,
+    "longitude": -87.7267,
+    "zip": "60644",
+    "description": "Opened January 2026 \u2014 Chicago's first public library-based food pantry. Serves ~600 households monthly.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Fraternite Notre Dame",
+    "type": "Hot Meal Site / Food Pantry",
+    "address": "502 N Central Ave, Chicago, IL 60644",
+    "phone": "(773) 261-0101",
+    "website": "",
+    "community": "Austin",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Thu 11 AM\u20131 PM (hot meals); Wed 2 PM\u20135 PM (pantry)",
+    "services": [
+      "Hot meals",
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8873,
+    "longitude": -87.7649,
+    "zip": "60644",
+    "description": "Austin community organization providing free hot lunches four days a week and Wednesday grocery distribution.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Austin Coming Together Food Initiative",
+    "type": "Pantry Network / Community Program",
+    "address": "5049 W Harrison St, Chicago, IL 60644",
+    "phone": "(773) 417-8612",
+    "website": "https://austincomingtogether.org/",
+    "community": "Austin",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Fri 9 AM\u20135 PM",
+    "services": [
+      "Groceries",
+      "Resource referrals"
+    ],
+    "latitude": 41.8733,
+    "longitude": -87.7544,
+    "zip": "60644",
+    "description": "Coordinates multiple neighborhood pantries and community food initiatives across Austin.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Garfield Park Community Council Fresh Market",
+    "type": "Fresh Produce Distribution",
+    "address": "3355 W Madison St, Chicago, IL 60624",
+    "phone": "(773) 948-8989",
+    "website": "https://www.gpcommunitycouncil.org/",
+    "community": "East Garfield Park",
+    "region": "City of Chicago",
+    "hours": "Sat 10 AM\u20131 PM (seasonal)",
+    "services": [
+      "Fresh produce",
+      "Groceries"
+    ],
+    "latitude": 41.8816,
+    "longitude": -87.7113,
+    "zip": "60624",
+    "description": "Hosts weekly fresh-produce markets and connects residents to local food resources.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Midwest Corps Community Center (Salvation Army)",
+    "type": "Food Pantry",
+    "address": "20 S Campbell Ave, Chicago, IL 60612",
+    "phone": "(312) 733-4801",
+    "website": "",
+    "community": "East Garfield Park / Tri-Taylor",
+    "region": "City of Chicago",
+    "hours": "Thu 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8758,
+    "longitude": -87.6813,
+    "zip": "60612",
+    "description": "Salvation Army community center near the Tri-Taylor neighborhood offering Thursday grocery distribution.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Greater Holy Temple COGIC Food Pantry",
+    "type": "Food Pantry",
+    "address": "246 N California Ave, Chicago, IL 60612",
+    "phone": "(773) 722-9430",
+    "website": "",
+    "community": "East Garfield Park",
+    "region": "City of Chicago",
+    "hours": "Fri 1 PM\u20134 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8847,
+    "longitude": -87.696,
+    "zip": "60612",
+    "description": "GCFD-partner church pantry in East Garfield Park distributing groceries every Friday afternoon.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Marillac St. Vincent Family Services \u2014 West Side",
+    "type": "Food Pantry / Social Services",
+    "address": "2859 W Jackson Blvd, Chicago, IL 60612",
+    "phone": "(773) 584-4539",
+    "website": "https://www.marillacstvincent.org/",
+    "community": "East Garfield Park / Near West Side",
+    "region": "City of Chicago",
+    "hours": "Wed 2:30 PM\u20135:30 PM; Fri 10 AM\u201312:30 PM",
+    "services": [
+      "Groceries",
+      "Social services",
+      "GCFD partner"
+    ],
+    "latitude": 41.8774,
+    "longitude": -87.7025,
+    "zip": "60612",
+    "description": "West Side location of Marillac St. Vincent providing groceries and wraparound social services.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Our Lady of the Holy Family Food Pantry",
+    "type": "Food Pantry",
+    "address": "1334 W Flournoy St, Chicago, IL 60607",
+    "phone": "(312) 519-6200",
+    "website": "",
+    "community": "Near West Side",
+    "region": "City of Chicago",
+    "hours": "Fri 1:30 PM\u20133:30 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8696,
+    "longitude": -87.6646,
+    "zip": "60607",
+    "description": "GCFD-partner Friday pantry near the West Loop serving Near West Side residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Chicago Temple Corps Community Center",
+    "type": "Food Pantry",
+    "address": "1 N Ogden Ave, Chicago, IL 60607",
+    "phone": "(312) 492-6803",
+    "website": "",
+    "community": "Near West Side",
+    "region": "City of Chicago",
+    "hours": "Tue 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8713,
+    "longitude": -87.6589,
+    "zip": "60607",
+    "description": "GCFD-partner Salvation Army corps center near the West Loop providing Tuesday grocery distribution.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "LaSalle Neighbors Food Pantry",
+    "type": "Food Pantry / Produce Distribution",
+    "address": "1111 N Wells St Ste 301, Chicago, IL 60610",
+    "phone": "(773) 406-3944",
+    "website": "",
+    "community": "Near North Side / Gold Coast",
+    "region": "City of Chicago",
+    "hours": "Daily 10 AM\u20136 PM; Fresh produce 1st & 3rd Tue of month",
+    "services": [
+      "Groceries",
+      "Fresh produce",
+      "GCFD partner"
+    ],
+    "latitude": 41.9017,
+    "longitude": -87.634,
+    "zip": "60610",
+    "description": "Near North Side pantry open daily with extended hours and twice-monthly fresh produce distributions.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. James Food Pantry",
+    "type": "Food Pantry",
+    "address": "2907 S Wabash Ave, Chicago, IL 60616",
+    "phone": "(312) 842-1919",
+    "website": "",
+    "community": "Douglas / Bridgeport / Chinatown",
+    "region": "City of Chicago",
+    "hours": "Tue\u2013Thu 9 AM\u201311:30 AM; 2nd Sat 9 AM\u201311 AM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.8433,
+    "longitude": -87.6262,
+    "zip": "60616",
+    "description": "GCFD-partner pantry near Chinatown distributing pantry items and groceries; multilingual in Mandarin, Cantonese, and Spanish.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Fellowship MB Church",
+    "type": "Food Pantry / Hot Meals",
+    "address": "4543 S Princeton Ave, Chicago, IL 60609",
+    "phone": "(773) 924-3232",
+    "website": "",
+    "community": "Fuller Park / Back of the Yards",
+    "region": "City of Chicago",
+    "hours": "Wed 8:00 AM\u201310:00 AM; Thu 12:00 PM\u20132:00 PM (hot meals); 4th Sat 8:00 AM\u201311:00 AM",
+    "services": [
+      "Groceries",
+      "Hot meals",
+      "GCFD partner"
+    ],
+    "latitude": 41.8125,
+    "longitude": -87.6337,
+    "zip": "60609",
+    "description": "Faith-based church pantry serving Fuller Park and Bronzeville with weekday groceries, monthly Saturday distribution, and Thursday hot meals.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Parkway Garden Christian Church",
+    "type": "Food Pantry / Meal Support",
+    "address": "6600 S Martin Luther King Dr, Chicago, IL 60637",
+    "phone": "(773) 956-8723",
+    "website": "",
+    "community": "Woodlawn / Washington Park",
+    "region": "City of Chicago",
+    "hours": "2nd & 4th Sat 9:00 AM\u201312:30 PM",
+    "services": [
+      "Groceries",
+      "Meal programs"
+    ],
+    "latitude": 41.7759,
+    "longitude": -87.6153,
+    "zip": "60637",
+    "description": "Faith-based church providing groceries and community meals twice monthly for Woodlawn and Washington Park residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "First Presbyterian Church Free Food Market (Woodlawn)",
+    "type": "Food Pantry",
+    "address": "6400 S Kimbark Ave, Chicago, IL 60637",
+    "phone": "(773) 363-0303",
+    "website": "https://www.chicagosfoodbank.org/locations/first-presbyterian-church-of-chicago/",
+    "community": "Woodlawn",
+    "region": "City of Chicago",
+    "hours": "Thu 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.7798,
+    "longitude": -87.5975,
+    "zip": "60637",
+    "description": "GCFD-partner free grocery market serving ZIP codes 60637, 60619, and 60649 every Thursday morning.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Edward G. Irvin Foundation Resource Center",
+    "type": "Food Pantry / Resource Center",
+    "address": "500 E 67th St, Chicago, IL 60637",
+    "phone": "(312) 852-6923",
+    "website": "",
+    "community": "Woodlawn / Greater Grand Crossing",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Wed 9 AM\u20133 PM",
+    "services": [
+      "Groceries",
+      "Clothing",
+      "Case management",
+      "Counseling"
+    ],
+    "latitude": 41.7738,
+    "longitude": -87.5951,
+    "zip": "60637",
+    "description": "South Side resource center providing groceries, clothing, case management, and counseling services Monday through Wednesday.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "New Joy Divine",
+    "type": "Food Pantry",
+    "address": "7625 S Halsted St, Chicago, IL 60620",
+    "phone": "(773) 224-5683",
+    "website": "",
+    "community": "Auburn Gresham",
+    "region": "City of Chicago",
+    "hours": "2nd & 4th Sat 10:00 AM\u201312:00 PM",
+    "services": [
+      "Groceries",
+      "Community support"
+    ],
+    "latitude": 41.7557,
+    "longitude": -87.6443,
+    "zip": "60620",
+    "description": "Bi-weekly pantry operated by New Joy Divine Church providing groceries and neighborhood assistance for Auburn Gresham residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Sabina Parish Food Pantry",
+    "type": "Food Pantry",
+    "address": "1120 W 79th St, Chicago, IL 60620",
+    "phone": "(773) 483-4300",
+    "website": "https://saintsabina.org/",
+    "community": "Auburn Gresham",
+    "region": "City of Chicago",
+    "hours": "Mon\u2013Fri 9:30 AM\u201311:30 AM & 1:30 PM\u20133:00 PM",
+    "services": [
+      "Groceries",
+      "Community programs",
+      "GCFD partner"
+    ],
+    "latitude": 41.7507,
+    "longitude": -87.6541,
+    "zip": "60620",
+    "description": "Active South Side parish operating one of Chicago's busiest weekday pantries, open five days a week.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Providence MBC Food Pantry",
+    "type": "Food Pantry",
+    "address": "8401 S Ashland Ave, Chicago, IL 60620",
+    "phone": "(773) 238-5831",
+    "website": "",
+    "community": "Auburn Gresham",
+    "region": "City of Chicago",
+    "hours": "Wed 11 AM\u20131 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.7428,
+    "longitude": -87.6639,
+    "zip": "60620",
+    "description": "GCFD-partner church distributing groceries every Wednesday in Auburn Gresham.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "First Worldwide Ministries",
+    "type": "Food Pantry / Community Support",
+    "address": "7945 S Exchange Ave, Chicago, IL 60617",
+    "phone": "(919) 908-4140",
+    "website": "",
+    "community": "South Chicago",
+    "region": "City of Chicago",
+    "hours": "Thu 3:30 PM\u20135:30 PM",
+    "services": [
+      "Groceries",
+      "Faith-based assistance"
+    ],
+    "latitude": 41.7512,
+    "longitude": -87.5534,
+    "zip": "60617",
+    "description": "Afternoon food pantry offering groceries and spiritual support to South Chicago families.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Trinity Resurrection United",
+    "type": "Food Pantry",
+    "address": "9046 S Mackinaw Ave, Chicago, IL 60617",
+    "phone": "(773) 768-9645",
+    "website": "",
+    "community": "East Side / South Chicago",
+    "region": "City of Chicago",
+    "hours": "Wed 8:30 AM\u201310:30 AM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.7302,
+    "longitude": -87.5526,
+    "zip": "60617",
+    "description": "Weekly pantry program distributing food and basic supplies to residents of East Side and South Chicago.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Southeast Side of Chicago Food Pantry",
+    "type": "Outdoor Grocery Distribution",
+    "address": "11401 S Green Bay Ave, Chicago, IL 60617",
+    "phone": "(773) 649-9612",
+    "website": "https://www.chicagosfoodbank.org/locations/southeast-side-of-chicago-food-pantry/",
+    "community": "South Deering / East Side",
+    "region": "City of Chicago",
+    "hours": "Wed 1 PM\u20133 PM",
+    "services": [
+      "Groceries",
+      "Outdoor distribution",
+      "GCFD partner"
+    ],
+    "latitude": 41.6882,
+    "longitude": -87.5453,
+    "zip": "60617",
+    "description": "Outdoor pantry serving Southeast Side residents in partnership with GCFD.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Redeeming Grace Church Food Pantry",
+    "type": "Food Pantry",
+    "address": "11801 S Sangamon St, Chicago, IL 60643",
+    "phone": "(773) 995-7721",
+    "website": "",
+    "community": "Morgan Park / Beverly",
+    "region": "City of Chicago",
+    "hours": "Sat 11 AM\u20131 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.6878,
+    "longitude": -87.6519,
+    "zip": "60643",
+    "description": "South Side church pantry distributing free groceries every Saturday morning to Morgan Park and surrounding community members.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Third Baptist Church of Chicago Pantry",
+    "type": "Food Pantry",
+    "address": "1510 W 95th St, Chicago, IL 60643",
+    "phone": "(773) 840-3967",
+    "website": "",
+    "community": "Beverly",
+    "region": "City of Chicago",
+    "hours": "Sat 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.7223,
+    "longitude": -87.6658,
+    "zip": "60643",
+    "description": "GCFD-partner church pantry in Beverly distributing groceries every Saturday morning.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Maple Morgan Park Community Food Pantry",
+    "type": "Food Pantry",
+    "address": "10655 S Hoyne Ave, Chicago, IL 60643",
+    "phone": "(773) 779-0200",
+    "website": "",
+    "community": "Morgan Park",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.6974,
+    "longitude": -87.672,
+    "zip": "60643",
+    "description": "Community pantry on the Far South Side in Morgan Park providing grocery assistance.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Common Pantry",
+    "type": "Food Pantry / Social Services",
+    "address": "3908 N Lincoln Ave, Chicago, IL 60613",
+    "phone": "(773) 327-0553",
+    "website": "https://www.commonpantry.org/",
+    "community": "North Center / Ravenswood",
+    "region": "City of Chicago",
+    "hours": "Tue 4 PM\u20136 PM; Wed 1 PM\u20134 PM & 6 PM\u20138 PM; Thu 1 PM\u20134 PM",
+    "services": [
+      "Groceries",
+      "Fresh produce",
+      "Social services",
+      "Senior home delivery"
+    ],
+    "latitude": 41.9526,
+    "longitude": -87.6835,
+    "zip": "60613",
+    "description": "Chicago's oldest continually-operating food pantry since 1967, serving North Side residents with client-choice groceries, social services, and cooking classes.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Nourishing Hope \u2014 Sheridan Market",
+    "type": "Food Pantry",
+    "address": "3945 N Sheridan Rd, Chicago, IL 60613",
+    "phone": "(773) 525-1777",
+    "website": "https://www.nourishinghopechi.org/get-food/",
+    "community": "Lakeview",
+    "region": "City of Chicago",
+    "hours": "Mon, Wed, Fri\u2013Sat 1 PM\u20133 PM; Thu 4 PM\u20137 PM",
+    "services": [
+      "Groceries",
+      "Social services",
+      "Mental health services",
+      "Home delivery",
+      "Online market"
+    ],
+    "latitude": 41.9547,
+    "longitude": -87.6545,
+    "zip": "60613",
+    "description": "Large North Side pantry network distributing 6M+ lbs of food in 2025. Offers client-choice shopping, mental health support, and online grocery ordering.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Nourishing Hope \u2014 El Mercadito",
+    "type": "Food Pantry",
+    "address": "3533 W North Ave, Chicago, IL 60647",
+    "phone": "(773) 525-1777",
+    "website": "https://www.nourishinghopechi.org/get-food/",
+    "community": "Humboldt Park / Logan Square",
+    "region": "City of Chicago",
+    "hours": "See website for rotating hours",
+    "services": [
+      "Groceries",
+      "Bilingual services",
+      "Social services"
+    ],
+    "latitude": 41.9099,
+    "longitude": -87.7166,
+    "zip": "60647",
+    "description": "West Side location of Nourishing Hope offering bilingual client-choice grocery shopping for Humboldt Park and Logan Square residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Celestial Vision Food Pantry",
+    "type": "Food Pantry",
+    "address": "3023 W Fullerton Ave, Chicago, IL 60647",
+    "phone": "(773) 501-4064",
+    "website": "https://www.chicagosfoodbank.org/locations/celestial-vision-food-pantry/",
+    "community": "Logan Square / Avondale",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.9249,
+    "longitude": -87.7066,
+    "zip": "60647",
+    "description": "GCFD-partner food pantry serving Logan Square and Avondale residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Benedict Parish Pantry",
+    "type": "Food Pantry",
+    "address": "3900 N Leavitt St, Chicago, IL 60618",
+    "phone": "(773) 588-6484",
+    "website": "https://www.stbenedict.com/",
+    "community": "North Center",
+    "region": "City of Chicago",
+    "hours": "Fri 9 AM\u201311 AM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.9527,
+    "longitude": -87.6826,
+    "zip": "60618",
+    "description": "Small neighborhood pantry distributing groceries every Friday morning.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Albany Park Food Pantry",
+    "type": "Food Pantry",
+    "address": "3850 W Montrose Ave, Chicago, IL 60618",
+    "phone": "(773) 478-7941",
+    "website": "https://www.chicagosfoodbank.org/locations/albany-park-food-pantry/",
+    "community": "Albany Park",
+    "region": "City of Chicago",
+    "hours": "Wed 8 AM\u201310 AM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.9614,
+    "longitude": -87.7213,
+    "zip": "60618",
+    "description": "GCFD-partner pantry in Albany Park serving the Lawrence/Pulaski corridor.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Irving Park Community Food Pantry",
+    "type": "Food Pantry",
+    "address": "4256 N Ridgeway Ave, Chicago, IL 60618",
+    "phone": "(773) 283-6296",
+    "website": "https://www.irvingparkfoodpantry.org/",
+    "community": "Irving Park",
+    "region": "City of Chicago",
+    "hours": "Wed 9 AM\u201312 PM; 2nd Tue 6 PM\u20137:30 PM",
+    "services": [
+      "Groceries",
+      "SNAP enrollment help",
+      "Pet food corner",
+      "Home delivery",
+      "GCFD partner"
+    ],
+    "latitude": 41.9588,
+    "longitude": -87.7204,
+    "zip": "60618",
+    "description": "Volunteer-run Northwest Side pantry serving ZIP codes 60618 and 60641; offers pet food corner, SNAP assistance, and homebound delivery.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "New Life Community Church \u2014 Albany Park",
+    "type": "Food Pantry / Outdoor Distribution",
+    "address": "3729 W Leland Ave, Chicago, IL 60625",
+    "phone": "(773) 876-1712",
+    "website": "",
+    "community": "Albany Park",
+    "region": "City of Chicago",
+    "hours": "1st Tue of month 4 PM\u20136 PM",
+    "services": [
+      "Groceries",
+      "Outdoor distribution"
+    ],
+    "latitude": 41.9651,
+    "longitude": -87.7189,
+    "zip": "60625",
+    "description": "Monthly outdoor grocery distribution in Albany Park; multilingual in Hindi and Spanish.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Friendship Center Food Pantry",
+    "type": "Food Pantry / Hot Meal Site",
+    "address": "2711 W Lawrence Ave, Chicago, IL 60625",
+    "phone": "(773) 907-6388",
+    "website": "https://friendshipcenterchicago.org/",
+    "community": "Lincoln Square",
+    "region": "City of Chicago",
+    "hours": "Mon, Wed, Fri 9 AM\u201312 PM; Tue 6 PM\u20138 PM",
+    "services": [
+      "Groceries",
+      "Hot meals"
+    ],
+    "latitude": 41.9688,
+    "longitude": -87.6981,
+    "zip": "60625",
+    "description": "Long-running pantry providing both groceries and prepared meals for North Side residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Irving Park Corps Community Center (Salvation Army)",
+    "type": "Food Pantry",
+    "address": "5020 N Pulaski Rd, Chicago, IL 60641",
+    "phone": "(773) 794-6207",
+    "website": "",
+    "community": "Irving Park / Portage Park",
+    "region": "City of Chicago",
+    "hours": "Tue & Thu 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.9741,
+    "longitude": -87.7267,
+    "zip": "60641",
+    "description": "Salvation Army corps providing twice-weekly grocery distribution to Irving Park and surrounding Northwest Side neighborhoods.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Cornelius Food Pantry",
+    "type": "Food Pantry",
+    "address": "5205 N Lieb Ave, Chicago, IL 60630",
+    "phone": "(773) 621-7105",
+    "website": "https://www.chicagosfoodbank.org/locations/st-cornelius-food-pantry/",
+    "community": "Portage Park",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.9742,
+    "longitude": -87.7687,
+    "zip": "60630",
+    "description": "GCFD-partner pantry in Portage Park on the Northwest Side.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "New Hope Community Food Pantry",
+    "type": "Emergency Food Pantry",
+    "address": "6125 W Foster Ave, Chicago, IL 60630",
+    "phone": "(773) 775-1215",
+    "website": "https://www.newhopefoodpantry.com/",
+    "community": "Jefferson Park / Norwood Park",
+    "region": "City of Chicago",
+    "hours": "Tue 9:30 AM\u201311:30 AM",
+    "services": [
+      "Groceries",
+      "Emergency food assistance"
+    ],
+    "latitude": 41.9753,
+    "longitude": -87.7832,
+    "zip": "60630",
+    "description": "Northwest Side pantry providing free groceries to residents of several ZIP codes.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Marillac St. Vincent Family Services \u2014 Lincoln Park",
+    "type": "Food Pantry / Social Services",
+    "address": "2145 N Halsted St, Chicago, IL 60614",
+    "phone": "(312) 278-4130",
+    "website": "https://www.marillacstvincent.org/",
+    "community": "Lincoln Park",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries",
+      "Social services",
+      "GCFD partner"
+    ],
+    "latitude": 41.9205,
+    "longitude": -87.6489,
+    "zip": "60614",
+    "description": "North Side pantry and social services hub operated by Marillac St. Vincent Family Services.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Care for Real \u2014 Edgewater",
+    "type": "Food Pantry",
+    "address": "5840 N Broadway Ave, Chicago, IL 60660",
+    "phone": "(773) 769-6182",
+    "website": "https://careforreal.org/",
+    "community": "Edgewater",
+    "region": "City of Chicago",
+    "hours": "Mon 4 PM\u20136 PM; Wed 9 AM\u201312 PM; Sat 9 AM\u20131 PM",
+    "services": [
+      "Groceries",
+      "Fresh produce",
+      "Clothing"
+    ],
+    "latitude": 41.985,
+    "longitude": -87.6601,
+    "zip": "60660",
+    "description": "Community-based pantry in Edgewater providing free groceries, clothing, and essential services; open to all regardless of documentation.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Care for Real \u2014 Rogers Park",
+    "type": "Food Pantry",
+    "address": "1545 W Morse Ave, Chicago, IL 60626",
+    "phone": "(773) 769-6182",
+    "website": "https://careforreal.org/",
+    "community": "Rogers Park",
+    "region": "City of Chicago",
+    "hours": "Thu 3 PM\u20136 PM",
+    "services": [
+      "Groceries",
+      "Fresh produce"
+    ],
+    "latitude": 42.0083,
+    "longitude": -87.6683,
+    "zip": "60626",
+    "description": "Rogers Park location of Care for Real, providing free groceries Thursday afternoons.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Our Lady of Lourdes Parish Food Pantry",
+    "type": "Food Pantry",
+    "address": "4640 N Ashland Ave, Chicago, IL 60640",
+    "phone": "(773) 561-2141",
+    "website": "https://www.ololchicago.org/",
+    "community": "Uptown",
+    "region": "City of Chicago",
+    "hours": "Wed 9:30 AM\u201311:30 AM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.9652,
+    "longitude": -87.6697,
+    "zip": "60640",
+    "description": "Uptown parish pantry serving low-income residents with weekly grocery distribution.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Cornerstone Community Outreach",
+    "type": "Food Pantry / Shelter Services",
+    "address": "4628 N Clifton Ave, Chicago, IL 60640",
+    "phone": "(773) 271-8163",
+    "website": "https://ccolife.org/",
+    "community": "Uptown",
+    "region": "City of Chicago",
+    "hours": "Call for current pantry hours",
+    "services": [
+      "Groceries",
+      "Shelter",
+      "Case management"
+    ],
+    "latitude": 41.9661,
+    "longitude": -87.6591,
+    "zip": "60640",
+    "description": "Uptown organization providing pantry services alongside shelter, case management, and wraparound support for vulnerable residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "ICNA Relief Chicago",
+    "type": "Food Pantry / Emergency Assistance",
+    "address": "2809 W Devon Ave, Chicago, IL 60659",
+    "phone": "(844) 414-4862",
+    "website": "https://www.icnarelief.org/",
+    "community": "West Ridge / Devon Ave",
+    "region": "City of Chicago",
+    "hours": "Call for current hours",
+    "services": [
+      "Groceries",
+      "Emergency assistance",
+      "Refugee services"
+    ],
+    "latitude": 41.9981,
+    "longitude": -87.7003,
+    "zip": "60659",
+    "description": "Faith-based relief organization providing free groceries and emergency aid on the North Side; serves all regardless of background or documentation.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Agents of Hope Training & Information Center",
+    "type": "Food Pantry",
+    "address": "2736 W Devon Ave, Chicago, IL 60659",
+    "phone": "",
+    "website": "",
+    "community": "West Ridge / Devon Ave",
+    "region": "City of Chicago",
+    "hours": "Mon 2 PM\u20135 PM; Tue\u2013Wed 2 PM\u20134 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.9981,
+    "longitude": -87.7003,
+    "zip": "60659",
+    "description": "West Ridge pantry near Devon Ave distributing groceries multiple days per week.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "A Just Harvest",
+    "type": "Food Pantry / Community Kitchen",
+    "address": "7653 N Paulina St, Chicago, IL 60626",
+    "phone": "(773) 262-2297",
+    "website": "https://www.ajustharvest.org/",
+    "community": "Rogers Park",
+    "region": "City of Chicago",
+    "hours": "Wed 3 PM\u20135 PM (pantry); Daily 12 PM\u20132 PM & Mon\u2013Fri 5:30 PM\u20136:30 PM (community kitchen)",
+    "services": [
+      "Groceries",
+      "Community kitchen",
+      "GCFD partner",
+      "Mobile pantry (seniors)"
+    ],
+    "latitude": 41.999,
+    "longitude": -87.6711,
+    "zip": "60626",
+    "description": "Rogers Park community kitchen and pantry open to all; serves free daily meals and weekly pantry pickup. Also operates a mobile pantry for homebound seniors in Rogers Park.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Howard and Evanston Community Center Food Pantry",
+    "type": "Food Pantry",
+    "address": "7510 N Ashland Ave, Chicago, IL 60626",
+    "phone": "(773) 262-2232",
+    "website": "https://howardevanston.org/services/emergency-needs/food-pantry/",
+    "community": "Rogers Park",
+    "region": "City of Chicago",
+    "hours": "Mon 1 PM\u20133 PM; Wed 9 AM\u201311:30 AM",
+    "services": [
+      "Groceries",
+      "Client choice pantry"
+    ],
+    "latitude": 42.0162,
+    "longitude": -87.6692,
+    "zip": "60626",
+    "description": "Client-choice pantry feeding nearly 12,000 low-income families and individuals annually in Rogers Park.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Onward Neighborhood House",
+    "type": "Food Pantry",
+    "address": "5433 W Diversey Ave, Chicago, IL 60639",
+    "phone": "(773) 622-3215",
+    "website": "https://onwardnh.org/",
+    "community": "Belmont Cragin",
+    "region": "City of Chicago",
+    "hours": "Tue 2 PM\u20136 PM; Thu 1 PM\u20136 PM",
+    "services": [
+      "Groceries",
+      "Community programs",
+      "GCFD partner"
+    ],
+    "latitude": 41.9318,
+    "longitude": -87.768,
+    "zip": "60639",
+    "description": "Belmont Cragin neighborhood house offering food pantry access alongside educational and social services.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
     "name": "Mosque Foundation",
     "type": "Community Food Distribution",
     "address": "7210 W 90th Pl, Bridgeview, IL 60455",
@@ -697,11 +1505,1201 @@
     "website": "",
     "community": "Bridgeview",
     "region": "Southwest Suburbs",
-    "hours": "Mon 10:00 AM–1:00 PM",
-    "services": ["Groceries", "Community aid"],
+    "hours": "Mon 10:00 AM\u20131:00 PM",
+    "services": [
+      "Groceries",
+      "Community aid"
+    ],
     "latitude": 41.7264,
     "longitude": -87.8021,
     "zip": "60455",
-    "description": "Community-centered pantry at Mosque Foundation providing weekly groceries for families in Bridgeview and nearby suburbs."
-}
+    "description": "Community-centered pantry at Mosque Foundation providing weekly groceries for families in Bridgeview and nearby suburbs.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Together We Cope",
+    "type": "Food Pantry / Emergency Assistance",
+    "address": "17010 S Oak Park Ave, Tinley Park, IL 60477",
+    "phone": "(708) 633-5040",
+    "website": "https://www.togetherwecope.org/",
+    "community": "Tinley Park",
+    "region": "Southwest Suburbs",
+    "hours": "Mon\u2013Thu 10 AM\u20133 PM; Fri 10 AM\u20131 PM",
+    "services": [
+      "Groceries",
+      "Emergency financial assistance",
+      "Clothing"
+    ],
+    "latitude": 41.5683,
+    "longitude": -87.7868,
+    "zip": "60477",
+    "description": "Non-profit serving the Southwest Suburbs with groceries, emergency financial aid, and clothing; one of the most comprehensive emergency assistance programs in the region.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Restoration Ministries Food Pantry",
+    "type": "Food Pantry",
+    "address": "253 E 159th St, Harvey, IL 60426",
+    "phone": "(708) 333-3370",
+    "website": "https://restorationministries.net/",
+    "community": "Harvey",
+    "region": "South Suburbs",
+    "hours": "Mon\u2013Fri 9 AM\u20133 PM",
+    "services": [
+      "Groceries",
+      "Clothing",
+      "Support services"
+    ],
+    "latitude": 41.6026,
+    "longitude": -87.6481,
+    "zip": "60426",
+    "description": "Faith-based organization providing groceries and essentials to Harvey and neighboring residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Bloom Township Food Pantry",
+    "type": "Food Pantry",
+    "address": "203 W 155th St, Harvey, IL 60426",
+    "phone": "(708) 754-9400",
+    "website": "https://www.chicagosfoodbank.org/locations/bloom-township-food-pantry-inc/",
+    "community": "Harvey / Bloom Township",
+    "region": "South Suburbs",
+    "hours": "Mon 3 PM\u20137 PM; Wed 10 AM\u20132 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.605,
+    "longitude": -87.6442,
+    "zip": "60426",
+    "description": "GCFD-partner township pantry in Bloom Township open twice weekly with evening hours on Mondays.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Catholic Charities Curbside Pantry \u2014 Park Forest",
+    "type": "Mobile / Curbside Pantry",
+    "address": "10 Hemlock St, Park Forest, IL 60466",
+    "phone": "(708) 748-8031",
+    "website": "https://www.catholiccharities.net/",
+    "community": "Park Forest",
+    "region": "South Suburbs",
+    "hours": "Thu 9:30 AM\u20132:30 PM",
+    "services": [
+      "Groceries",
+      "Drive-up service"
+    ],
+    "latitude": 41.4802,
+    "longitude": -87.691,
+    "zip": "60466",
+    "description": "Drive-through pantry serving families across the South Suburbs.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Respond Now Emergency Assistance Center",
+    "type": "Food Pantry / Emergency Aid",
+    "address": "1439 Emerald Ave, Chicago Heights, IL 60411",
+    "phone": "(708) 755-4357",
+    "website": "https://respondnow.org/",
+    "community": "Chicago Heights",
+    "region": "South Suburbs",
+    "hours": "Mon\u2013Fri 9 AM\u20134 PM",
+    "services": [
+      "Groceries",
+      "Rent and utility assistance"
+    ],
+    "latitude": 41.5062,
+    "longitude": -87.6318,
+    "zip": "60411",
+    "description": "Community non-profit offering food, financial, and housing assistance to south-suburban families.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "South Suburban PADS Day Center Food Program",
+    "type": "Meal Program / Pantry",
+    "address": "414 W Lincoln Highway, Chicago Heights, IL 60411",
+    "phone": "(708) 332-7700",
+    "website": "https://southsuburbanpads.org/",
+    "community": "Chicago Heights",
+    "region": "South Suburbs",
+    "hours": "Mon\u2013Fri 9 AM\u20133 PM",
+    "services": [
+      "Hot meals",
+      "Groceries"
+    ],
+    "latitude": 41.5066,
+    "longitude": -87.637,
+    "zip": "60411",
+    "description": "Day center offering hot meals and pantry support for homeless and low-income individuals in the South Suburbs.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "VKMI Hattie B. Williams Food Pantry",
+    "type": "Food Pantry",
+    "address": "275 E Joe Orr Rd, Chicago Heights, IL 60411",
+    "phone": "(708) 927-4561",
+    "website": "https://www.chicagosfoodbank.org/locations/vkmi-hattie-b-williams-food-pantry/",
+    "community": "Chicago Heights",
+    "region": "South Suburbs",
+    "hours": "Wed 4 PM\u20136 PM; Thu 10:30 AM\u201312:30 PM; Fri 9:15 AM\u201312:15 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 41.505,
+    "longitude": -87.624,
+    "zip": "60411",
+    "description": "GCFD-partner pantry open three days a week in Chicago Heights \u2014 one of the most accessible suburban pantry schedules.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Blue Cap Community Services Pantry",
+    "type": "Food Pantry",
+    "address": "2155 Broadway St, Blue Island, IL 60406",
+    "phone": "(708) 389-6578",
+    "website": "https://blue-cap.org/",
+    "community": "Blue Island",
+    "region": "South Suburbs",
+    "hours": "Wed 10 AM\u201312 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.6607,
+    "longitude": -87.6813,
+    "zip": "60406",
+    "description": "Distributes food weekly to Blue Island residents and nearby communities.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Community Center of Hope at Dolton Park District",
+    "type": "Community Food Distribution",
+    "address": "14700 Greenwood Rd, Dolton, IL 60419",
+    "phone": "(708) 841-2111",
+    "website": "",
+    "community": "Dolton",
+    "region": "South Suburbs",
+    "hours": "Thu 10 AM\u20131 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.6215,
+    "longitude": -87.5969,
+    "zip": "60419",
+    "description": "Weekly community pantry run by the Dolton Park District and local partners.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Faith United Methodist Church Food Pantry",
+    "type": "Food Pantry",
+    "address": "15015 Grant St, Dolton, IL 60419",
+    "phone": "(708) 841-5070",
+    "website": "https://faithumcdolton.org/",
+    "community": "Dolton",
+    "region": "South Suburbs",
+    "hours": "Wed 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "Emergency food boxes"
+    ],
+    "latitude": 41.6217,
+    "longitude": -87.5938,
+    "zip": "60419",
+    "description": "Church-run pantry providing emergency groceries and support services for families in Dolton and Riverdale.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Our Lady of Knock Parish Food Pantry",
+    "type": "Food Pantry",
+    "address": "501 159th St, Calumet City, IL 60409",
+    "phone": "(708) 862-3011",
+    "website": "https://ourladyofknockcc.org/",
+    "community": "Calumet City",
+    "region": "South Suburbs",
+    "hours": "Tue 10 AM\u201312 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.6013,
+    "longitude": -87.5477,
+    "zip": "60409",
+    "description": "Parish pantry distributing food weekly to Calumet City residents and families in need.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Beyond Hunger",
+    "type": "Food Pantry / Drive-Through",
+    "address": "848 Lake St, Oak Park, IL 60301",
+    "phone": "(708) 386-1324",
+    "website": "https://www.beyondhunger.org/",
+    "community": "Oak Park",
+    "region": "West Suburbs",
+    "hours": "Wed 3:30 PM\u20135:30 PM; Sat 9 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "Drive-through option",
+      "Client choice shopping",
+      "GCFD partner"
+    ],
+    "latitude": 41.8866,
+    "longitude": -87.7945,
+    "zip": "60301",
+    "description": "Oak Park pantry offering both walk-in client-choice shopping and a drive-through option. Serves multiple ZIP codes in Chicago and the near-west suburbs.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Cicero-Berwyn-Stickney Food Pantry (Gethsemane Lutheran Church)",
+    "type": "Food Pantry",
+    "address": "1937 S 50th Ave, Cicero, IL 60804",
+    "phone": "(708) 863-4913",
+    "website": "https://www.cbsfoodpantry.org/",
+    "community": "Cicero / Berwyn / Stickney",
+    "region": "West Suburbs",
+    "hours": "Tue 10 AM\u20131 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.8519,
+    "longitude": -87.7489,
+    "zip": "60804",
+    "description": "Jointly run pantry serving Cicero, Berwyn, and Stickney residents from Gethsemane Lutheran Church.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Ministerio El Shaddai Ministry Inc.",
+    "type": "Food Pantry / Grocery Distribution",
+    "address": "1421 S Laramie Ave, Cicero, IL 60804",
+    "phone": "(708) 222-2200",
+    "website": "https://www.elshaddaichicago.org/",
+    "community": "Cicero",
+    "region": "West Suburbs",
+    "hours": "Mon & Tue 1 PM\u20133 PM",
+    "services": [
+      "Groceries",
+      "Faith-based assistance"
+    ],
+    "latitude": 41.8584,
+    "longitude": -87.7535,
+    "zip": "60804",
+    "description": "Bilingual pantry providing groceries and support to Cicero-area families.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Proviso Township Food Pantry",
+    "type": "Food Pantry",
+    "address": "4565 Harrison St, Hillside, IL 60162",
+    "phone": "(708) 449-4301",
+    "website": "https://www.provisotownship.com/",
+    "community": "Hillside / Maywood",
+    "region": "West Suburbs",
+    "hours": "Mon\u2013Fri 9 AM\u20134 PM",
+    "services": [
+      "Groceries",
+      "Referral services"
+    ],
+    "latitude": 41.8739,
+    "longitude": -87.9032,
+    "zip": "60162",
+    "description": "Township-operated pantry providing groceries and social service referrals to west suburban residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Maywood Peace Pantry (St. Eulalia Parish)",
+    "type": "Food Pantry",
+    "address": "1851 S 9th Ave, Maywood, IL 60153",
+    "phone": "(708) 343-6120",
+    "website": "",
+    "community": "Maywood",
+    "region": "West Suburbs",
+    "hours": "Wed 10 AM\u201312 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.8796,
+    "longitude": -87.8451,
+    "zip": "60153",
+    "description": "Community pantry hosted at St. Eulalia Parish offering weekly grocery support for Maywood residents.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Bataan-Corregidor VFW Post 367 Pantry",
+    "type": "Veteran / Community Pantry",
+    "address": "1509 S Harlem Ave, Berwyn, IL 60402",
+    "phone": "(708) 788-6660",
+    "website": "",
+    "community": "Berwyn",
+    "region": "West Suburbs",
+    "hours": "Thu 10 AM\u201312 PM",
+    "services": [
+      "Groceries",
+      "Veteran assistance"
+    ],
+    "latitude": 41.8574,
+    "longitude": -87.8039,
+    "zip": "60402",
+    "description": "Operated by the local VFW post, providing groceries and veteran support resources to Berwyn and nearby communities.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "St. Pius X Parish Food Pantry",
+    "type": "Food Pantry",
+    "address": "4300 S Oak Park Ave, Stickney, IL 60402",
+    "phone": "(708) 484-7951",
+    "website": "https://www.stpiusxstickney.org/",
+    "community": "Stickney",
+    "region": "West Suburbs",
+    "hours": "Tue 9 AM\u201311 AM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.8157,
+    "longitude": -87.7846,
+    "zip": "60402",
+    "description": "Parish-based pantry providing food and basic necessities to Stickney residents and neighboring areas.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Westchester Food Pantry",
+    "type": "Food Pantry",
+    "address": "10800 Canterbury St, Westchester, IL 60154",
+    "phone": "(708) 927-4826",
+    "website": "https://www.westchesterfoodpantry.org/",
+    "community": "Westchester / Broadview",
+    "region": "West Suburbs",
+    "hours": "Sat 9:30 AM\u201311:30 AM",
+    "services": [
+      "Groceries",
+      "Emergency assistance"
+    ],
+    "latitude": 41.8493,
+    "longitude": -87.8832,
+    "zip": "60154",
+    "description": "Volunteer-run pantry offering weekend food support and referrals for neighboring communities.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Grace Lutheran Church Food Pantry",
+    "type": "Food Pantry",
+    "address": "1101 Manchester St, Westchester, IL 60154",
+    "phone": "(708) 345-1370",
+    "website": "https://gracewestchester.org/",
+    "community": "Westchester",
+    "region": "West Suburbs",
+    "hours": "Wed 10 AM\u201312 PM",
+    "services": [
+      "Groceries"
+    ],
+    "latitude": 41.8497,
+    "longitude": -87.8796,
+    "zip": "60154",
+    "description": "Local church-operated pantry providing groceries and outreach for residents in need.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Niles Township Food Pantry",
+    "type": "Food Pantry",
+    "address": "5255 Main St, Skokie, IL 60077",
+    "phone": "(847) 983-0073",
+    "website": "https://www.chicagosfoodbank.org/locations/niles-township-food-pantry/",
+    "community": "Niles Township / Skokie",
+    "region": "North Suburbs",
+    "hours": "Mon 9:30 AM\u201311:30 AM & 1 PM\u20133:30 PM; Tue 9:30 AM\u20136:30 PM; Wed 9:30 AM\u20133:30 PM; Fri 9:30 AM\u20136 PM",
+    "services": [
+      "Groceries",
+      "GCFD partner"
+    ],
+    "latitude": 42.0264,
+    "longitude": -87.7325,
+    "zip": "60077",
+    "description": "GCFD-partner pantry in Skokie open five days a week with extended evening hours \u2014 one of the most accessible suburban pantries in the region.",
+    "lastUpdated": "Mar 2026"
+  },
+  {
+    "name": "Meals Ministry",
+    "address": "126 E. Chestnut St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60611",
+    "phone": "312-787-2729",
+    "hours": "Sun 4\u20135:30pm; Tue\u2013Thu 11:30am\u20131pm",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner. Hot meals at Fourth Presbyterian Church.",
+    "region": "City of Chicago",
+    "lat": 41.8985,
+    "lng": -87.6277
+  },
+  {
+    "name": "St. Pius V Parish Food Pantry",
+    "address": "1919 S. Ashland Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60608",
+    "phone": "312-226-6161",
+    "hours": "Tue 2\u20135pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Spanish spoken.",
+    "region": "City of Chicago",
+    "lat": 41.8558,
+    "lng": -87.67
+  },
+  {
+    "name": "Life Changers International Church Pantry",
+    "address": "1337 W. 15th St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60608",
+    "phone": "312-504-5090",
+    "hours": "2nd & 4th Thu 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8612,
+    "lng": -87.6637
+  },
+  {
+    "name": "Circle Foundation Food Pantry",
+    "address": "3052 S. Gratten Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60608",
+    "phone": "773-663-1143",
+    "hours": "Sat 9:30\u201311:30am",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8418,
+    "lng": -87.6748
+  },
+  {
+    "name": "New Eclipse Community Alliance",
+    "address": "715 W. 51st St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60609",
+    "phone": "773-538-4957",
+    "hours": "Wed\u2013Thu 4:30\u20136:30pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Mandarin, Cantonese, Spanish spoken.",
+    "region": "City of Chicago",
+    "lat": 41.8019,
+    "lng": -87.6412
+  },
+  {
+    "name": "Central American Martyrs Center",
+    "address": "5045 S. Laflin Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60609",
+    "phone": "773-376-9263",
+    "hours": "Tue & Thu 8:30\u201310:30am; 2nd & 4th Sat 9\u201311am",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8018,
+    "lng": -87.6508
+  },
+  {
+    "name": "Firman Community Services",
+    "address": "37 W. 47th St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60609",
+    "phone": "773-373-3400",
+    "hours": "Wed 12\u20132pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Community organization pantry.",
+    "region": "City of Chicago",
+    "lat": 41.8086,
+    "lng": -87.6289
+  },
+  {
+    "name": "Breaking Bread Ministries",
+    "address": "1111 N. Wells St., Ste 500",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60610",
+    "phone": "312-805-0408",
+    "hours": "Wed 6\u20137pm",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner. Hot meals.",
+    "region": "City of Chicago",
+    "lat": 41.9009,
+    "lng": -87.6346
+  },
+  {
+    "name": "St. Matthew Child Advocate Pantry",
+    "address": "1000 N. Orleans St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60610",
+    "phone": "312-448-1810",
+    "hours": "Tue 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.9001,
+    "lng": -87.6363
+  },
+  {
+    "name": "St. Stephen AME Church Pantry",
+    "address": "3042 W. Washington Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60612",
+    "phone": "773-673-8045",
+    "hours": "Wed\u2013Thu 3\u20135pm",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8826,
+    "lng": -87.7044
+  },
+  {
+    "name": "Pilgrim Rest MBC Food Pantry",
+    "address": "1901 W. Washington Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60612",
+    "phone": "773-398-9249",
+    "hours": "1st\u20133rd Sat 12\u20132pm; 4th Wed 12\u20132pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8826,
+    "lng": -87.6747
+  },
+  {
+    "name": "Mount Ridge Baptist Church Pantry",
+    "address": "2658 W. Jackson Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60612",
+    "phone": "773-826-7000",
+    "hours": "Sat 9\u201311am",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8773,
+    "lng": -87.699
+  },
+  {
+    "name": "Care for Friends Hot Meals",
+    "address": "530 W. Fullerton Pkwy.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60614",
+    "phone": "773-932-1010",
+    "hours": "Mon & Sat 10:30am\u201312:30pm",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.9252,
+    "lng": -87.6455
+  },
+  {
+    "name": "St. Teresa of Avila Parish Pantry",
+    "address": "1950 N. Kenmore Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60614",
+    "phone": "312-909-0784",
+    "hours": "Fri 4\u20136pm (hot meals); Sat 9:30\u201311:30am (groceries)",
+    "services": [
+      "hot meals",
+      "groceries"
+    ],
+    "notes": "GCFD partner. French and Spanish spoken.",
+    "region": "City of Chicago",
+    "lat": 41.9197,
+    "lng": -87.6547
+  },
+  {
+    "name": "Chicago Hyde Park SDA Church Meals",
+    "address": "4608 S. Drexel Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60615",
+    "phone": "773-373-2909",
+    "hours": "Wed 11am\u20131pm",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8127,
+    "lng": -87.6064
+  },
+  {
+    "name": "Tabor Lutheran Senior Food Pantry",
+    "address": "3542 W. Sunnyside Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60618",
+    "phone": "773-588-4040",
+    "hours": "2nd & 4th Wed 10am\u201312:30pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Adults 60+ only; ID required to verify age.",
+    "region": "City of Chicago",
+    "lat": 41.9628,
+    "lng": -87.7157
+  },
+  {
+    "name": "Carlene S. Lilly Seed of Hope Food Pantry",
+    "address": "740 E. 77th St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60619",
+    "phone": "773-846-3700",
+    "hours": "Sat 9\u201311am",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.7539,
+    "lng": -87.6062
+  },
+  {
+    "name": "New Life Covenant Church Pantry",
+    "address": "7757 S. Greenwood Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60619",
+    "phone": "773-285-1731",
+    "hours": "Thu 12\u20132pm and 4\u20136pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.7549,
+    "lng": -87.5988
+  },
+  {
+    "name": "New Bethlehem 4 MBC Pantry",
+    "address": "8850 S. Cottage Grove Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60619",
+    "phone": "773-483-7251",
+    "hours": "Wed 9\u201311am",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.7316,
+    "lng": -87.6059
+  },
+  {
+    "name": "Target Area Development Corp. Pantry",
+    "address": "1542 W. 79th St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60620",
+    "phone": "773-651-6470",
+    "hours": "Mon\u2013Tue 11am\u20132pm; Thu 4\u20137pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.7504,
+    "lng": -87.6634
+  },
+  {
+    "name": "Koinonia Ministry Food Pantry",
+    "address": "7541 S. Halsted St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60620",
+    "phone": "773-406-2824",
+    "hours": "Wed 12\u20132pm; Thu 1\u20134pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.7568,
+    "lng": -87.6466
+  },
+  {
+    "name": "Shepherd's Hope Ltd.",
+    "address": "838 W. Marquette Rd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60621",
+    "phone": "773-351-3336",
+    "hours": "Mon\u2013Fri 1\u20135pm (hot meals); Tue & Thu 10am\u20132pm; Sat 9am\u201312pm (groceries)",
+    "services": [
+      "hot meals",
+      "groceries"
+    ],
+    "notes": "GCFD partner. Comprehensive food program.",
+    "region": "City of Chicago",
+    "lat": 41.7716,
+    "lng": -87.6445
+  },
+  {
+    "name": "Chosen Tabernacle Full Gospel Baptist Pantry",
+    "address": "6201 S. Sangamon St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60621",
+    "phone": "888-834-9414",
+    "hours": "Mon 4\u20136pm; Thu 1\u20133pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.7798,
+    "lng": -87.6501
+  },
+  {
+    "name": "St. Aloysius Food Pantry",
+    "address": "1510 N. Claremont Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60622",
+    "phone": "773-278-4808",
+    "hours": "Thu 9am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Italian and Spanish spoken.",
+    "region": "City of Chicago",
+    "lat": 41.9086,
+    "lng": -87.687
+  },
+  {
+    "name": "European American Association Food Pantry",
+    "address": "2827 W. Division St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60622",
+    "phone": "773-342-5868",
+    "hours": "Thu 2\u20134pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.9025,
+    "lng": -87.7044
+  },
+  {
+    "name": "Northwestern Settlement House Food Pantry",
+    "address": "1400 W. Augusta Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60622",
+    "phone": "773-278-7471",
+    "hours": "Mon\u2013Thu 9am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Spanish spoken. Serves 60622, 60642, 60610.",
+    "region": "City of Chicago",
+    "lat": 41.898,
+    "lng": -87.664
+  },
+  {
+    "name": "First Bethlehem Lutheran Church Pantry",
+    "address": "1649 W. LeMoyne St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60622",
+    "phone": "773-276-2338",
+    "hours": "Wed 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.9069,
+    "lng": -87.6673
+  },
+  {
+    "name": "Harmony Community Cares",
+    "address": "1908 S. Millard Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60623",
+    "phone": "312-971-8869",
+    "hours": "Wed 10:30am\u20131pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8553,
+    "lng": -87.7174
+  },
+  {
+    "name": "Greater Garfield MBC Pantry",
+    "address": "3757 W. Douglas Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60623",
+    "phone": "773-521-5000",
+    "hours": "Fri 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8483,
+    "lng": -87.7172
+  },
+  {
+    "name": "Our Lady of Tepeyac Parish Pantry",
+    "address": "3047 W. Cermak Rd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60623",
+    "phone": "773-522-0739",
+    "hours": "Sat 9am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.8525,
+    "lng": -87.7058
+  },
+  {
+    "name": "St. John Lutheran / Our Lady of Victory Pantry",
+    "address": "5247 W. Sunnyside Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60630",
+    "phone": "773-736-3810",
+    "hours": "Wed 5\u20137pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.963,
+    "lng": -87.7629
+  },
+  {
+    "name": "Windy City Community Church Food Pantry",
+    "address": "6131 N. Newark Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60631",
+    "phone": "773-631-9222",
+    "hours": "4th Tue 6:30\u20138pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Monthly distribution.",
+    "region": "City of Chicago",
+    "lat": 41.988,
+    "lng": -87.7977
+  },
+  {
+    "name": "Southeast Side of Chicago Food Pantry \u2014 Hegewisch",
+    "address": "13115 S. Houston Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60633",
+    "phone": "773-646-0630",
+    "hours": "Call for current hours",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Serves Hegewisch/far Southeast Side.",
+    "region": "City of Chicago",
+    "lat": 41.6495,
+    "lng": -87.5596
+  },
+  {
+    "name": "Evening Star Missionary Baptist Pantry",
+    "address": "2050 W. 59th St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60636",
+    "phone": "773-554-6628",
+    "hours": "Thu 8:30am\u20132pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Community pantry.",
+    "region": "City of Chicago",
+    "lat": 41.7866,
+    "lng": -87.6765
+  },
+  {
+    "name": "Midway Citadel Corps Community Center",
+    "address": "5036 W. 47th St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60638",
+    "phone": "773-581-0190",
+    "hours": "Wed & Fri 10\u201311:30am and 1\u20132:30pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Salvation Army. Serves Clearing/Garfield Ridge.",
+    "region": "City of Chicago",
+    "lat": 41.8086,
+    "lng": -87.7621
+  },
+  {
+    "name": "St. Stanislaus Kostka Hot Meals Program",
+    "address": "1351 W. Evergreen Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60642",
+    "phone": "773-545-8300",
+    "hours": "Mon\u2013Thu 11:30am\u201312:30pm",
+    "services": [
+      "hot meals"
+    ],
+    "notes": "GCFD partner. Daily hot meals.",
+    "region": "City of Chicago",
+    "lat": 41.9063,
+    "lng": -87.6588
+  },
+  {
+    "name": "Seeds Center of Maple Park",
+    "address": "11705 S. Elizabeth St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60643",
+    "phone": "773-928-5220",
+    "hours": "Wed & Fri 3\u20135pm (groceries); 12\u20132pm (hot meals)",
+    "services": [
+      "groceries",
+      "hot meals"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.6885,
+    "lng": -87.6533
+  },
+  {
+    "name": "Apostolic Pentecostal Church of Morgan Park Pantry",
+    "address": "11401 S. Green Bay Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60643",
+    "phone": "773-928-2630",
+    "hours": "Wed 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.6919,
+    "lng": -87.6001
+  },
+  {
+    "name": "Warren Park Produce Program",
+    "address": "6601 N. Western Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60645",
+    "phone": "773-262-2297",
+    "hours": "2nd Wed 9:30\u201311:30am (outdoors)",
+    "services": [
+      "produce"
+    ],
+    "notes": "GCFD partner. Fresh produce distribution.",
+    "region": "City of Chicago",
+    "lat": 42.0044,
+    "lng": -87.6876
+  },
+  {
+    "name": "Chicago Hope Inc. Food Pantry",
+    "address": "2505 N. Kedzie Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60647",
+    "phone": "773-278-6622",
+    "hours": "Mon 4\u20136pm; Thu 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner.",
+    "region": "City of Chicago",
+    "lat": 41.928,
+    "lng": -87.7077
+  },
+  {
+    "name": "Logan Square Neighborhood Assoc. Pantry",
+    "address": "2915 W. Palmer St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60647",
+    "phone": "773-235-3646",
+    "hours": "Call for current hours",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Community pantry.",
+    "region": "City of Chicago",
+    "lat": 41.9221,
+    "lng": -87.7036
+  },
+  {
+    "name": "Monument of Faith Evangelistic Church Pantry",
+    "address": "2750 W. Columbus Ave.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60652",
+    "phone": "773-737-4707",
+    "hours": "4th Mon 11am\u20131pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. Serves Chicago Lawn/Marquette Park area.",
+    "region": "City of Chicago",
+    "lat": 41.7655,
+    "lng": -87.6985
+  },
+  {
+    "name": "Worth Township Food Pantry",
+    "address": "11601 S. Pulaski Rd.",
+    "city": "Alsip",
+    "state": "IL",
+    "zip": "60803",
+    "phone": "708-425-2100",
+    "hours": "Tue\u2013Thu 10am\u20132pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Township-operated pantry.",
+    "region": "South Suburbs",
+    "lat": 41.6767,
+    "lng": -87.729
+  },
+  {
+    "name": "Evergreen Park Community Food Pantry",
+    "address": "2700 W. 98th Pl.",
+    "city": "Evergreen Park",
+    "state": "IL",
+    "zip": "60805",
+    "phone": "708-422-1551",
+    "hours": "Call for current hours",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Community pantry.",
+    "region": "South Suburbs",
+    "lat": 41.7178,
+    "lng": -87.7007
+  },
+  {
+    "name": "Township of Schaumburg Food Pantry",
+    "address": "1 Illinois Blvd.",
+    "city": "Hoffman Estates",
+    "state": "IL",
+    "zip": "60169",
+    "phone": "847-285-4503",
+    "hours": "Call for current hours",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Township-operated pantry serving Schaumburg Township residents.",
+    "region": "North/Northwest Suburbs",
+    "lat": 42.0408,
+    "lng": -88.1068
+  },
+  {
+    "name": "Pacific Garden Mission",
+    "address": "1458 S. Canal St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60607",
+    "phone": "312-492-9410",
+    "hours": "Daily; call for meal times",
+    "services": [
+      "hot meals",
+      "groceries",
+      "shelter"
+    ],
+    "notes": "One of Chicago's oldest missions. Serves meals daily; no ID required.",
+    "region": "City of Chicago",
+    "lat": 41.862,
+    "lng": -87.6395
+  },
+  {
+    "name": "A Just Harvest Community Kitchen",
+    "address": "7649 N. Paulina St.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60626",
+    "phone": "773-338-5235",
+    "hours": "Mon\u2013Fri 11:30am\u20131pm",
+    "services": [
+      "hot meals",
+      "groceries"
+    ],
+    "notes": "Hot meals and pantry. Serves Rogers Park/Evanston border area.",
+    "region": "City of Chicago",
+    "lat": 42.0156,
+    "lng": -87.6716
+  },
+  {
+    "name": "St. Agatha Parish Food Pantry",
+    "address": "3147 W. Douglas Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60623",
+    "phone": "773-522-3050",
+    "hours": "Tue 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "Call for current hours.",
+    "region": "City of Chicago",
+    "lat": 41.8483,
+    "lng": -87.7036
+  },
+  {
+    "name": "First Baptist Congregational Church Pantry",
+    "address": "1613 W. Washington Blvd.",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60612",
+    "phone": "312-243-8047",
+    "hours": "Tue 10am\u201312pm",
+    "services": [
+      "groceries"
+    ],
+    "notes": "GCFD partner. West Side.",
+    "region": "City of Chicago",
+    "lat": 41.8824,
+    "lng": -87.6673
+  }
 ]
