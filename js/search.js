@@ -6,8 +6,30 @@
 let allPantries = [];
 let filteredPantries = [];
 let currentPage = 1;
+let activeCategory = "";
 const PAGE_SIZE = 6;
 const NEARBY_MILES = 10;
+
+// Category color map for badges
+const CATEGORY_COLORS = {
+  "Food Pantry":        "bg-success",
+  "Job Program":        "bg-primary",
+  "Energy Assistance":  "bg-warning text-dark",
+  "Housing Assistance": "bg-danger",
+  "Healthcare":         "bg-info text-dark",
+  "Mental Health":      "bg-purple",
+  "Clothing & Goods":   "bg-secondary",
+};
+
+const CATEGORY_ICONS = {
+  "Food Pantry":        "🥫",
+  "Job Program":        "💼",
+  "Energy Assistance":  "⚡",
+  "Housing Assistance": "🏘️",
+  "Healthcare":         "🏥",
+  "Mental Health":      "🧠",
+  "Clothing & Goods":   "👕",
+};
 
 // Normalize a string for fuzzy matching
 function normalize(str) {
@@ -112,9 +134,12 @@ function buildCard(p) {
     ? `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`
     : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((p.address || "") + ", " + (p.city || "Chicago") + ", IL")}`;
 
+  const catColor = CATEGORY_COLORS[p.category] || "bg-secondary";
+  const catIcon = CATEGORY_ICONS[p.category] || "📋";
+  const catBadge = `<span class="badge ${catColor} me-1 mb-1">${catIcon} ${p.category || "Resource"}</span>`;
   const servicesBadges = Array.isArray(p.services)
-    ? p.services.map(s => `<span class="badge bg-primary me-1">${s}</span>`).join("")
-    : '<span class="badge bg-primary">Food Pantry</span>';
+    ? p.services.map(s => `<span class="badge bg-light text-dark border me-1">${s}</span>`).join("")
+    : "";
 
   const websiteBtn = p.website
     ? `<a href="${p.website}" target="_blank" class="btn btn-outline-success btn-sm mb-2 me-1">Visit Website</a>`
@@ -134,7 +159,7 @@ function buildCard(p) {
           <p class="mb-1">🕓 ${p.hours || "Hours not listed"}</p>
           <p class="text-success small mb-1">${getOpenStatus(p.hours)}</p>
           <p class="mb-2">📞 ${p.phone || "—"}</p>
-          <div class="mb-2">${servicesBadges}</div>
+          <div class="mb-2">${catBadge}${servicesBadges}</div>
           ${p.notes ? `<p class="small text-muted mb-2">${p.notes}</p>` : ""}
           <div class="mt-auto">
             ${websiteBtn}
@@ -205,7 +230,7 @@ function scrollToResults() {
   document.getElementById("resultCount")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-// Apply search + region + day filter, reset to page 1
+// Apply search + region + day + category filter, reset to page 1
 function applyFilters() {
   const rawQuery = document.getElementById("searchBox").value;
   const tokens = normalize(rawQuery).split(/\s+/).filter(Boolean);
@@ -221,7 +246,8 @@ function applyFilters() {
       const regionMatch = !region || (p.region || "") === region;
       const dayMatch = checkedDays.length === 0 ||
         checkedDays.some(d => parseDays(p.hours).has(d));
-      return queryMatch && regionMatch && dayMatch;
+      const categoryMatch = !activeCategory || (p.category || "") === activeCategory;
+      return queryMatch && regionMatch && dayMatch && categoryMatch;
     });
 
   currentPage = 1;
@@ -308,5 +334,16 @@ window.addEventListener("DOMContentLoaded", () => {
   // Day filter checkboxes
   document.querySelectorAll(".day-filter").forEach(cb => {
     cb.addEventListener("change", applyFilters);
+  });
+
+  // Category tabs
+  document.querySelectorAll(".category-tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".category-tab").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeCategory = btn.dataset.category || "";
+      currentPage = 1;
+      applyFilters();
+    });
   });
 });
