@@ -15,7 +15,7 @@ body {
   background-color: #f9fafc;
   color: #212529;
   line-height: 1.6;
-  padding-top: 56px; /* offset for fixed navbar */
+  padding-top: 56px;
 }
 
 main {
@@ -83,7 +83,7 @@ input.form-control {
 }
 
 /* ------------------------------
-   Footer (Sticky + Branded)
+   Footer
 ------------------------------ */
 footer {
   background-color: #212529;
@@ -107,41 +107,52 @@ footer a:hover {
 }
 
 /* ------------------------------
-   Responsive Adjustments
+   Responsive
 ------------------------------ */
 @media (max-width: 768px) {
   .hero {
     padding: 2rem 1rem;
     font-size: 0.95rem;
   }
-
   .card {
     margin-bottom: 1rem;
   }
-
   footer {
     font-size: 0.8rem;
   }
 }
 
-
-/* ✅ Auto-center cards when fewer than 3 per row */
 .row.g-4 {
-  justify-content: center; /* default: center cards */
+  justify-content: center;
 }
 
-/* When 3+ cards, restore normal spacing */
 @media (min-width: 768px) {
   .row.g-4:has(.col-md-4:nth-child(3)) {
     justify-content: start;
   }
 }
 
-
-#resetFilters {
-  transition: visibility 0.3s ease, opacity 0.3s ease;
-  opacity: 0;
+/* ------------------------------
+   Category Tab Pills
+------------------------------ */
+.nav-pills .nav-link {
+  border: 1px solid #dee2e6;
+  color: #495057;
+  background-color: #f8f9fa;
 }
-#resetFilters[style*="visible"] {
-  opacity: 1;
+
+.nav-pills .nav-link:hover {
+  background-color: #e9ecef;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+
+/* Mental Health purple badge (not in Bootstrap by default) */
+.bg-purple {
+  background-color: #6f42c1 !important;
+  color: #fff;
 }
